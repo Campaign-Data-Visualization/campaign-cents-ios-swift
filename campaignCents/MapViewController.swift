@@ -14,13 +14,13 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet var kochMap: MKMapView!
     @IBOutlet var kochPoliticiansNationwide: UILabel!
     
-    // Geographic center of the contiguous United States: http://en.wikipedia.org/wiki/Geographic_center_of_the_contiguous_United_States
-    var latSelected:Double = 39.50
-    var lngSelected:Double = -98.35
+    // Defaults to Austin, TX
+    var latSelected:Double = 30.274751
+    var lngSelected:Double = -97.739141
     
-    // Defaults to Country Level zoom
-    var deltaSelected:Double = 60.0
     
+    // Defaults to city-level view
+    var deltaSelected:Double = 0.11
     var politician = Dictionary<String, String>()
     
     var politicians = [
@@ -58,6 +58,8 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController.navigationBarHidden = false
         
         kochMap.delegate = self
         
