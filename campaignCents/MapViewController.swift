@@ -12,6 +12,7 @@ import MapKit
 class MapViewController: UIViewController, MKMapViewDelegate {
     
     @IBOutlet var kochMap: MKMapView!
+    @IBOutlet var kochPoliticiansNationwide: UILabel!
     
     // Geographic center of the contiguous United States: http://en.wikipedia.org/wiki/Geographic_center_of_the_contiguous_United_States
     var latSelected:Double = 39.50
@@ -42,6 +43,16 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             "state" : "TX",
             "lifetimeFunding" : "$107,000",
             "photo" : "Williams, Roger.png"
+        ],
+        [
+            "name" : "Samuel Frederickson",
+            "position" : "U.S. Representative",
+            "party" : "D",
+            "lat" : "30.232060",
+            "lng" : "-97.720949",
+            "state" : "TX",
+            "lifetimeFunding" : "$237,000",
+            "photo" : "Frederickson, Samuel.png"
         ]
     ]
     
@@ -61,7 +72,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         var selectedRegion:MKCoordinateRegion = MKCoordinateRegionMake(selectedLocation, selectedSpan)
 
         kochMap.setRegion(selectedRegion, animated: true)
-        
+
+        kochPoliticiansNationwide.text = "Koch Politicians Nationwide: \(politicians.count)"
+
         for var i = 0; i < politicians.count; i++ {
             var politician = MKPointAnnotation()
             
@@ -79,11 +92,54 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         }
     }
 
+    // Delegate method called each time an annotation appears in the visible window
+    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+        
+        if annotation is MKUserLocation {
+            //return nil so map view draws "blue dot" for standard user location
+            return nil
+        }
+        
+        let reuseId = "pin"
+        
+        var pinView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId) as? MKPinAnnotationView
+        
+        if pinView == nil {
+            pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+            pinView!.canShowCallout = true
+            pinView!.animatesDrop = true
+            pinView!.pinColor = .Red
+            
+            for var i = 0; i < politicians.count; i++ {
+            /*
+                // NOT WORKING: Pin color differs based on political party affiliation
+                if politicians[i]["party"] == "R" {
+                    pinView!.pinColor = .Red
+                } else if politicians[i]["party"] == "D"{
+                    pinView!.pinColor = .Green
+                } else {
+                    pinView!.pinColor = .Purple
+                }
+            */
+
+                if annotation.title == politicians[i]["name"] {
+                    var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
+                    imageview.image = UIImage(named: politicians[i]["photo"])
+                    pinView!.leftCalloutAccessoryView = imageview
+                }
+            }
+            
+            pinView!.rightCalloutAccessoryView = UIButton.buttonWithType(.DetailDisclosure) as UIButton
+        } else {
+            pinView!.annotation = annotation
+        }
+        return pinView
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation
