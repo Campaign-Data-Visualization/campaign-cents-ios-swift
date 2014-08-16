@@ -10,12 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
                             
-    // Geographic center of the contiguous United States: http://en.wikipedia.org/wiki/Geographic_center_of_the_contiguous_United_States
-    var latSelected:Double = 39.50
-    var lngSelected:Double = -98.35
+    var latSelected:Double = 0.0
+    var lngSelected:Double = 0.0
     
-    // Defaults to Country Level zoom
-    var deltaSelected:Double = 60.0
+    var deltaSelected:Double = 0.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +22,20 @@ class ViewController: UIViewController {
         self.navigationController.navigationBarHidden = true
     }
     
-    // Function to send politician information to next Politicians TVC
+    @IBAction func national(sender: AnyObject) {
+        // Geographic center of the contiguous United States: http://en.wikipedia.org/wiki/Geographic_center_of_the_contiguous_United_States
+        latSelected = 39.50
+        lngSelected = -98.35
+        
+        // Defaults to Country Level zoom
+        deltaSelected = 60.0
+    }
+    
+    @IBAction func nearMe(sender: AnyObject) {
+        println("Yo")
+    }
+    
+    // Function to send location information to Map VC
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
         if segue.identifier == "toKochMap" {
             println("seguing toKochMap")

@@ -35,6 +35,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="national:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sDR-dI-R1g"/>
                                     <segue destination="frm-9k-VZS" kind="show" identifier="toKochMap" id="i0n-L7-VIf"/>
                                 </connections>
                             </button>
@@ -61,7 +62,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Search for any candidate in the 2014 national elections." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8AA-U6-NNX">
-                                <rect key="frame" x="15" y="381" width="288" height="57"/>
+                                <rect key="frame" x="15" y="381" width="288" height="52"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -71,6 +72,10 @@
                                 <state key="normal" title="Near Me">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nearMe:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="76H-yG-mXB"/>
+                                    <segue destination="frm-9k-VZS" kind="show" identifier="toKochMap" id="24Q-kB-aqx"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="A map of all political candidates who have received contributions from the Koch brothers." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cog-Rr-KeL">
                                 <rect key="frame" x="15" y="126" width="288" height="61"/>
@@ -138,7 +143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQB-ej-egw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="835" y="-138"/>
+            <point key="canvasLocation" x="923" y="-47"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="urA-rC-Xyz">
@@ -166,5 +171,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="cTc-Mz-Tkl"/>
+        <segue reference="24Q-kB-aqx"/>
     </inferredMetricsTieBreakers>
 </document>
