@@ -30,7 +30,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             "lat" : "30.269402",
             "lng" : "-97.739141",
             "state" : "TX",
-            "totalFunding" : "$230,000",
+            "lifetimeFunding" : "$230,000",
             "photo" : "Cruz, Ted.png"
         ],
         [
@@ -40,7 +40,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             "lat" : "30.272060",
             "lng" : "-97.740949",
             "state" : "TX",
-            "totalFunding" : "$107,000",
+            "lifetimeFunding" : "$107,000",
             "photo" : "Williams, Roger.png"
         ]
     ]
@@ -61,6 +61,22 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         var selectedRegion:MKCoordinateRegion = MKCoordinateRegionMake(selectedLocation, selectedSpan)
 
         kochMap.setRegion(selectedRegion, animated: true)
+        
+        for var i = 0; i < politicians.count; i++ {
+            var politician = MKPointAnnotation()
+            
+            var politicianLifetimeFunding:String = politicians[i]["lifetimeFunding"]! as String
+            
+            // Converts string to "double" data type
+            var lat = NSString(string: politicians[i]["lat"]).doubleValue
+            var lng = NSString(string: politicians[i]["lng"]).doubleValue
+            
+            politician.coordinate = CLLocationCoordinate2DMake(lat as CLLocationDegrees, lng as CLLocationDegrees)
+            politician.title = politicians[i]["name"]! as String
+            politician.subtitle = "Lifetime Funding: \(politicianLifetimeFunding)"
+            
+            kochMap.addAnnotation(politician)
+        }
     }
 
     override func didReceiveMemoryWarning() {

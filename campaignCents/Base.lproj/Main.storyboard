@@ -44,7 +44,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Map View Controller-->
+        <!--Koch Map-->
         <scene sceneID="7di-Yi-wMe">
             <objects>
                 <viewController id="frm-9k-VZS" customClass="MapViewController" customModule="campaignCents" customModuleProvider="target" sceneMemberID="viewController">
@@ -65,7 +65,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ptp-m2-DUD"/>
+                    <navigationItem key="navigationItem" title="Koch Map" id="Ptp-m2-DUD"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
                         <size key="portraitSize" width="320" height="568"/>
