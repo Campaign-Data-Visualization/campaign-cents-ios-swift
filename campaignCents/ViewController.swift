@@ -18,6 +18,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     var manager:CLLocationManager!
     
+    @IBOutlet var textfieldZIP: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -60,18 +62,23 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     // The "Near Me" button that retrieves the user location information before segueing to map
     @IBAction func nearMe(sender: AnyObject) {
-        println("Yo")
+        println("JASEN|'Near Me' button pressed")
     }
     
     // Function to send location information to Map VC
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
         if segue.identifier == "toKochMap" {
-            println("seguing toKochMap")
+            println("JASEN|seguing toKochMap")
             var kochMapVC = segue.destinationViewController as MapViewController
             kochMapVC.latSelected = latSelected
             kochMapVC.lngSelected = lngSelected
             kochMapVC.deltaSelected = deltaSelected
         }
+    }
+    
+    // Hide the keyboard when the background is touched
+    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
+        self.view.endEditing(true)
     }
     
     override func didReceiveMemoryWarning() {

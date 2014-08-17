@@ -60,7 +60,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         
         self.navigationController.navigationBarHidden = false
-        
+         
         kochMap.delegate = self
         
         var latLocation:CLLocationDegrees = latSelected
