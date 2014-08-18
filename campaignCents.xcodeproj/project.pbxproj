@@ -15,6 +15,7 @@
 		346387BE199E6A2B00B97700 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346387BD199E6A2B00B97700 /* MapKit.framework */; };
 		346387C0199E6A3300B97700 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346387BF199E6A3300B97700 /* CoreLocation.framework */; };
 		346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346387C1199FBA7A00B97700 /* MapViewController.swift */; };
+		34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3B19A2774D001799ED /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		346387BD199E6A2B00B97700 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		346387BF199E6A3300B97700 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		346387C1199FBA7A00B97700 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		34D9DB3B19A2774D001799ED /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				346387A4199E6A0F00B97700 /* Main.storyboard */,
-				346387C1199FBA7A00B97700 /* MapViewController.swift */,
 				346387A2199E6A0F00B97700 /* ViewController.swift */,
+				346387C1199FBA7A00B97700 /* MapViewController.swift */,
+				34D9DB3B19A2774D001799ED /* ProfileViewController.swift */,
 				346387A7199E6A0F00B97700 /* Images.xcassets */,
 				3463879E199E6A0F00B97700 /* Supporting Files */,
 			);
@@ -221,6 +224,7 @@
 			files = (
 				346387A3199E6A0F00B97700 /* ViewController.swift in Sources */,
 				346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */,
+				34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */,
 				346387A1199E6A0F00B97700 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				346387B9199E6A0F00B97700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		346387BA199E6A0F00B97700 /* Build configuration list for PBXNativeTarget "campaignCentsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				346387BC199E6A0F00B97700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

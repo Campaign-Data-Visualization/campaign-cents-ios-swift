@@ -71,6 +71,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             kochMapVC.latSelected = latSelected
             kochMapVC.lngSelected = lngSelected
             kochMapVC.deltaSelected = deltaSelected
+        } else if segue.identifier == "toProfile" {
+            println("JASEN|seguing toProfile")
         }
     }
     
