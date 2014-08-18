@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class MapViewController: UIViewController, MKMapViewDelegate {
+class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegate {
     
     @IBOutlet var kochMap: MKMapView!
     @IBOutlet var kochPoliticiansNationwide: UILabel!
@@ -75,7 +75,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 
         kochMap.setRegion(selectedRegion, animated: true)
 
-        kochPoliticiansNationwide.text = "Koch Politicians Nationwide: \(politicians.count)"
+        kochPoliticiansNationwide.text = "\(politicians.count) Koch Politicians Nationwide"
 
         for var i = 0; i < politicians.count; i++ {
             var politician = MKPointAnnotation()
