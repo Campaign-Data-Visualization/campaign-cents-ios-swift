@@ -21,6 +21,17 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        politicianImage.image = UIImage(named: politician["photo"])
+        politicianName.setTitle(politician["name"], forState: .Normal)
+        
+        var pos:String = politician["position"]!
+        var par:String = politician["party"]!
+        var sta:String = politician["state"]!
+        politicianPosition.text = "\(pos) (\(par)-\(sta))"
+        
+//        currentFunding.text = politician["currentFunding"]
+        lifetimeFunding.text = politician["lifetimeFunding"]
     }
 
     override func didReceiveMemoryWarning() {
