@@ -30,7 +30,7 @@ class ProfileViewController: UIViewController {
         var sta:String = politician["state"]!
         politicianPosition.text = "\(pos) (\(par)-\(sta))"
         
-//        currentFunding.text = politician["currentFunding"]
+        currentFunding.text = politician["currentFunding"]
         lifetimeFunding.text = politician["lifetimeFunding"]
     }
 
