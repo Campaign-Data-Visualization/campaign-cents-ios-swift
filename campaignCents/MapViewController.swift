@@ -100,30 +100,55 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         }
     }
 
+    func googleAPI(location: String) {
+    
+        let mySession = NSURLSession.sharedSession()
+        
+        var urlString:String = "https://maps.googleapis.com/maps/api/geocode/json?address=\(location)"
+        println("JASEN| \(urlString)")
+        
+        let url:NSURL = NSURL(string: urlString)
+        
+        let networkTask = mySession.dataTaskWithURL(url, completionHandler : {data, response, error -> Void in
+            var err: NSError?
+            var theJSON = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as NSMutableDictionary
+            let results : NSArray = theJSON["results"]! as NSArray
+            var enteredLat:Double = (results[0]["geometry"]!["location"]!["lat"]) as Double
+            var enteredLng:Double = (results[0]["geometry"]!["location"]!["lng"]) as Double
+
+            // START: Recenters map on search
+            var latLocation:CLLocationDegrees = enteredLat // Boston Latitude: 42.364506
+            var lngLocation:CLLocationDegrees = enteredLng // Boston Longitude: -71.038887
+            
+            var coordDelta:CLLocationDegrees = 0.21
+            
+            var selectedSpan:MKCoordinateSpan = MKCoordinateSpanMake(coordDelta, coordDelta)
+            
+            var selectedLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(latLocation, lngLocation)
+            var selectedRegion:MKCoordinateRegion = MKCoordinateRegionMake(selectedLocation, selectedSpan)
+            
+            self.kochMap.setRegion(selectedRegion, animated: true)
+            // END: Recenters map on search
+            
+            println("Latitude: \(enteredLat) and Longitude: \(enteredLng)")
+        })
+        
+        networkTask.resume()
+    }
+    
     // Delegate method called when search button clicked
     func searchBarSearchButtonClicked(searchBar: UISearchBar!) {
         var location:String = searchBar.text
         println(location)
+        
+        // Runs googleAPI with user input city or ZIP
+        googleAPI(location)
         
         // Clears search bar field upon enter
         searchBar.text = ""
         
         // Hides keyboard on search
         searchBar.resignFirstResponder()
-        
-        // START: Recenters map on search
-        var latLocation:CLLocationDegrees = 42.364506
-        var lngLocation:CLLocationDegrees = -71.038887
-        
-        var coordDelta:CLLocationDegrees = 0.21
-        
-        var selectedSpan:MKCoordinateSpan = MKCoordinateSpanMake(coordDelta, coordDelta)
-        
-        var selectedLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(latLocation, lngLocation)
-        var selectedRegion:MKCoordinateRegion = MKCoordinateRegionMake(selectedLocation, selectedSpan)
-        // END: Recenters map on search
-        
-        kochMap.setRegion(selectedRegion, animated: true)
     }
     
     // Delegate method called each time an annotation appears in the visible window
