@@ -133,6 +133,7 @@
                     <connections>
                         <outlet property="kochMap" destination="VfD-gI-pXd" id="x1o-Cq-A1D"/>
                         <outlet property="kochPoliticiansNationwide" destination="XFS-jC-IBw" id="yaZ-f1-dM4"/>
+                        <segue destination="VPu-Bh-GqP" kind="show" identifier="fromMaptoProfile" id="N78-tV-NwZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQB-ej-egw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -179,16 +180,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQd-yf-rcb">
-                                <rect key="frame" x="16" y="482" width="288" height="53"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="36"/>
-                                <state key="normal" title="Take Action!">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="fcv-y3-jHm" kind="presentation" identifier="toTakeAction" modalTransitionStyle="partialCurl" id="vR0-iq-029"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$35,000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mh-Yg-sIw">
                                 <rect key="frame" x="192" y="361" width="112" height="25"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
@@ -209,6 +200,16 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQd-yf-rcb">
+                                <rect key="frame" x="16" y="482" width="288" height="53"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="36"/>
+                                <state key="normal" title="Take Action!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fcv-y3-jHm" kind="presentation" identifier="toTakeAction" modalTransitionStyle="partialCurl" id="vR0-iq-029"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -319,6 +320,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="24Q-kB-aqx"/>
+        <segue reference="i0n-L7-VIf"/>
+        <segue reference="N78-tV-NwZ"/>
     </inferredMetricsTieBreakers>
 </document>

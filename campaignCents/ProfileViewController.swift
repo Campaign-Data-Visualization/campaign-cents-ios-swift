@@ -10,6 +10,8 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    var politician = Dictionary<String, String>()
+    
     @IBOutlet var politicianImage: UIImageView!
     @IBOutlet var politicianName: UIButton!
     @IBOutlet var politicianPosition: UILabel!

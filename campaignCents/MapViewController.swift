@@ -113,17 +113,6 @@ class MapViewController: UIViewController, MKMapViewDelegate {
             pinView!.pinColor = .Red
             
             for var i = 0; i < politicians.count; i++ {
-            /*
-                // NOT WORKING: Pin color differs based on political party affiliation
-                if politicians[i]["party"] == "R" {
-                    pinView!.pinColor = .Red
-                } else if politicians[i]["party"] == "D"{
-                    pinView!.pinColor = .Green
-                } else {
-                    pinView!.pinColor = .Purple
-                }
-            */
-
                 if annotation.title == politicians[i]["name"] {
                     var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
                     imageview.image = UIImage(named: politicians[i]["photo"])
@@ -138,19 +127,30 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         return pinView
     }
     
+    // Function of what happens when callout per annotation touched (clicked)
+    func mapView(mapView: MKMapView!, annotationView: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        
+        for var i = 0; i < politicians.count; i++ {
+            if politicians[i]["name"] == annotationView.annotation.title {
+                politician = politicians[i]
+            }
+        }
+        
+        println("Politician Name: \(politician)")
+        self.performSegueWithIdentifier("fromMaptoProfile", sender: view)
+    }
+
+    // Function to send politician information to ProfileVC
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+        if segue.identifier == "fromMaptoProfile" {
+            println("JASEN|seguing fromMaptoProfile")
+            var profileVC = segue.destinationViewController as ProfileViewController
+            profileVC.politician = politician
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
