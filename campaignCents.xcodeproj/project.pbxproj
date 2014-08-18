@@ -90,10 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				346387A4199E6A0F00B97700 /* Main.storyboard */,
-				34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */,
 				346387A2199E6A0F00B97700 /* ViewController.swift */,
 				346387C1199FBA7A00B97700 /* MapViewController.swift */,
 				34D9DB3B19A2774D001799ED /* ProfileViewController.swift */,
+				34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */,
 				346387A7199E6A0F00B97700 /* Images.xcassets */,
 				3463879E199E6A0F00B97700 /* Supporting Files */,
 			);

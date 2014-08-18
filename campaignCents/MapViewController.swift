@@ -149,6 +149,11 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         }
     }
     
+    // Hide the keyboard when the background is touched
+    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
+        self.view.endEditing(true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
