@@ -78,7 +78,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="K77-nY-pmQ"/>
+                    <navigationItem key="navigationItem" id="K77-nY-pmQ">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="I8a-aG-fFf"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
                         <size key="portraitSize" width="320" height="568"/>
@@ -120,7 +122,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Koch Politicians" id="Ptp-m2-DUD"/>
+                    <navigationItem key="navigationItem" title="Koch Politicians" id="Ptp-m2-DUD">
+                        <barButtonItem key="backBarButtonItem" title="Map" id="sYZ-2M-NUf"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
                         <size key="portraitSize" width="320" height="568"/>
@@ -150,13 +154,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5q-GI-GSb">
                                 <rect key="frame" x="44" y="80" width="232" height="180"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQd-yf-rcb">
-                                <rect key="frame" x="16" y="482" width="288" height="53"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="36"/>
-                                <state key="normal" title="Take Action!">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="U.S. Senator (R-TX)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3p-IN-xiS">
                                 <rect key="frame" x="16" y="318" width="288" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
@@ -182,6 +179,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQd-yf-rcb">
+                                <rect key="frame" x="16" y="482" width="288" height="53"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="36"/>
+                                <state key="normal" title="Take Action!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$35,000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mh-Yg-sIw">
                                 <rect key="frame" x="192" y="361" width="112" height="25"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
@@ -194,6 +198,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NJk-gA-ztD">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Profile" id="zb9-gQ-756">
+                                        <barButtonItem key="backBarButtonItem" title="Profile" id="j0L-2S-vg4"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -232,6 +244,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="i0n-L7-VIf"/>
+        <segue reference="24Q-kB-aqx"/>
     </inferredMetricsTieBreakers>
 </document>
