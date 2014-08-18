@@ -110,6 +110,10 @@
                                     <outlet property="delegate" destination="frm-9k-VZS" id="Cbh-R8-yRt"/>
                                 </connections>
                             </mapView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="City or ZIP Code" translatesAutoresizingMaskIntoConstraints="NO" id="sYl-Q2-8uI">
+                                <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

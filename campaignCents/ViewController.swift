@@ -18,8 +18,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     var manager:CLLocationManager!
     
-    @IBOutlet var textfieldZIP: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
