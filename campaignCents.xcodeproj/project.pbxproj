@@ -16,6 +16,7 @@
 		346387C0199E6A3300B97700 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346387BF199E6A3300B97700 /* CoreLocation.framework */; };
 		346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346387C1199FBA7A00B97700 /* MapViewController.swift */; };
 		34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3B19A2774D001799ED /* ProfileViewController.swift */; };
+		34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		346387BF199E6A3300B97700 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		346387C1199FBA7A00B97700 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		34D9DB3B19A2774D001799ED /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeActionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				346387A4199E6A0F00B97700 /* Main.storyboard */,
+				34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */,
 				346387A2199E6A0F00B97700 /* ViewController.swift */,
 				346387C1199FBA7A00B97700 /* MapViewController.swift */,
 				34D9DB3B19A2774D001799ED /* ProfileViewController.swift */,
@@ -226,6 +229,7 @@
 				346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */,
 				34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */,
 				346387A1199E6A0F00B97700 /* AppDelegate.swift in Sources */,
+				34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

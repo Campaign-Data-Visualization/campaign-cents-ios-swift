@@ -1,5 +1,5 @@
 //
-//  ProfileViewController.swift
+//  TakeActionViewController.swift
 //  campaignCents
 //
 //  Created by Jasen Lew on 8/18/14.
@@ -8,21 +8,17 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class TakeActionViewController: UIViewController {
 
-    @IBOutlet var politicianImage: UIImageView!
-    @IBOutlet var politicianName: UIButton!
-    @IBOutlet var politicianPosition: UILabel!
-    @IBOutlet var currentFunding: UILabel!
-    @IBOutlet var lifetimeFunding: UILabel!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
 
