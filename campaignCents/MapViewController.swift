@@ -11,7 +11,10 @@ import MapKit
 
 class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegate {
     
+    // Elements on storyboard
+    @IBOutlet var navBar: UINavigationItem!
     @IBOutlet var kochMap: MKMapView!
+    @IBOutlet var searchBar: UISearchBar!
     @IBOutlet var kochPoliticiansNationwide: UILabel!
     
     // Defaults to Austin, TX
@@ -23,6 +26,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     var deltaSelected:Double = 0.11
     var politician = Dictionary<String, String>()
     
+    // Temp array of politicians
     var politicians = [
         [
             "name" : "Ted Cruz",
@@ -60,8 +64,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         super.viewDidLoad()
         
         self.navigationController.navigationBarHidden = false
-         
+        
         kochMap.delegate = self
+        searchBar.delegate = self
+        searchBar.showsScopeBar = true
         
         var latLocation:CLLocationDegrees = latSelected
         var lngLocation:CLLocationDegrees = lngSelected
@@ -75,7 +81,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
 
         kochMap.setRegion(selectedRegion, animated: true)
 
-        kochPoliticiansNationwide.text = "\(politicians.count) Koch Politicians Nationwide"
+        kochPoliticiansNationwide.text = "Koch Politicians Nationwide: \(politicians.count)"
 
         for var i = 0; i < politicians.count; i++ {
             var politician = MKPointAnnotation()
@@ -94,6 +100,32 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         }
     }
 
+    // Delegate method called when search button clicked
+    func searchBarSearchButtonClicked(searchBar: UISearchBar!) {
+        var location:String = searchBar.text
+        println(location)
+        
+        // Clears search bar field upon enter
+        searchBar.text = ""
+        
+        // Hides keyboard on search
+        searchBar.resignFirstResponder()
+        
+        // START: Recenters map on search
+        var latLocation:CLLocationDegrees = 42.364506
+        var lngLocation:CLLocationDegrees = -71.038887
+        
+        var coordDelta:CLLocationDegrees = 0.21
+        
+        var selectedSpan:MKCoordinateSpan = MKCoordinateSpanMake(coordDelta, coordDelta)
+        
+        var selectedLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(latLocation, lngLocation)
+        var selectedRegion:MKCoordinateRegion = MKCoordinateRegionMake(selectedLocation, selectedSpan)
+        // END: Recenters map on search
+        
+        kochMap.setRegion(selectedRegion, animated: true)
+    }
+    
     // Delegate method called each time an annotation appears in the visible window
     func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
         

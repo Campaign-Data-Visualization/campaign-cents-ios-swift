@@ -113,8 +113,8 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Koch Politicians Nationwide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltG-o1-wEC">
-                                <rect key="frame" x="16" y="108" width="288" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Koch Politicians Nationwide" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltG-o1-wEC">
+                                <rect key="frame" x="23" y="545" width="288" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="12"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -133,12 +133,14 @@
                     <connections>
                         <outlet property="kochMap" destination="VfD-gI-pXd" id="x1o-Cq-A1D"/>
                         <outlet property="kochPoliticiansNationwide" destination="ltG-o1-wEC" id="30I-q3-M8d"/>
+                        <outlet property="navBar" destination="Ptp-m2-DUD" id="rDw-lT-IlY"/>
+                        <outlet property="searchBar" destination="sYl-Q2-8uI" id="WUO-zq-w2u"/>
                         <segue destination="VPu-Bh-GqP" kind="show" identifier="fromMaptoProfile" id="N78-tV-NwZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQB-ej-egw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="923" y="-47"/>
+            <point key="canvasLocation" x="811" y="33"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Zmq-Gi-f2y">
@@ -228,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ep0-0K-1Fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="923" y="630"/>
+            <point key="canvasLocation" x="1245" y="533"/>
         </scene>
         <!--Take Action View Controller-->
         <scene sceneID="voN-Lp-nT1">
@@ -293,7 +295,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Wi-cc-rm4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="923" y="1314"/>
+            <point key="canvasLocation" x="1245" y="1233"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="urA-rC-Xyz">
@@ -316,7 +318,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z17-FS-sdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-60" y="191"/>
+            <point key="canvasLocation" x="-38" y="191"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
