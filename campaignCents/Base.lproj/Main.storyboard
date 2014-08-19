@@ -181,6 +181,9 @@
                                 <state key="normal" title="First Last">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="GEa-y6-rtD" kind="show" identifier="toBio" id="4k2-5b-w5j"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$TBD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mh-Yg-sIw">
                                 <rect key="frame" x="187" y="361" width="112" height="25"/>
@@ -231,6 +234,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ep0-0K-1Fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1245" y="533"/>
+        </scene>
+        <!--Bio View Controller-->
+        <scene sceneID="YQI-uU-9zV">
+            <objects>
+                <viewController id="GEa-y6-rtD" customClass="BioViewController" customModule="campaignCents" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7tc-K5-sGD"/>
+                        <viewControllerLayoutGuide type="bottom" id="gHr-6R-9dL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h0I-G1-cUi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wmb-ob-Pfc">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Biography" id="pTO-sn-R91">
+                                        <barButtonItem key="backBarButtonItem" title="Biography" id="F1q-Vr-mEd"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
+                        <size key="portraitSize" width="320" height="568"/>
+                        <size key="landscapeSize" width="568" height="320"/>
+                    </simulatedScreenMetrics>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oal-e7-40x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716" y="533"/>
         </scene>
         <!--Take Action View Controller-->
         <scene sceneID="voN-Lp-nT1">
@@ -322,7 +358,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="i0n-L7-VIf"/>
+        <segue reference="24Q-kB-aqx"/>
         <segue reference="N78-tV-NwZ"/>
     </inferredMetricsTieBreakers>
 </document>

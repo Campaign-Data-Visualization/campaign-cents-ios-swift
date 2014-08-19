@@ -17,6 +17,7 @@
 		346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346387C1199FBA7A00B97700 /* MapViewController.swift */; };
 		34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3B19A2774D001799ED /* ProfileViewController.swift */; };
 		34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */; };
+		34D9DB4019A31290001799ED /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3F19A31290001799ED /* BioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		346387C1199FBA7A00B97700 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		34D9DB3B19A2774D001799ED /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeActionViewController.swift; sourceTree = "<group>"; };
+		34D9DB3F19A31290001799ED /* BioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				346387C1199FBA7A00B97700 /* MapViewController.swift */,
 				34D9DB3B19A2774D001799ED /* ProfileViewController.swift */,
 				34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */,
+				34D9DB3F19A31290001799ED /* BioViewController.swift */,
 				346387A7199E6A0F00B97700 /* Images.xcassets */,
 				3463879E199E6A0F00B97700 /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 				34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */,
 				346387A1199E6A0F00B97700 /* AppDelegate.swift in Sources */,
 				34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */,
+				34D9DB4019A31290001799ED /* BioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
