@@ -32,8 +32,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             "name" : "Ted Cruz",
             "position" : "U.S. Senator",
             "party" : "R",
-            "lat" : "30.269402",
-            "lng" : "-97.739141",
+            "address" : "300 E 8th, Suite 961, Austin, TX 78701",
             "state" : "TX",
             "lifetimeFunding" : "$230,000",
             "photo" : "Cruz, Ted.png"
@@ -42,8 +41,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             "name" : "Roger Williams",
             "position" : "U.S. Representative",
             "party" : "R",
-            "lat" : "30.272060",
-            "lng" : "-97.740949",
+            "address" : "1005 Congress Avenue, Suite 925. Austin, TX 78701",
             "state" : "TX",
             "lifetimeFunding" : "$107,000",
             "photo" : "Williams, Roger.png"
@@ -52,8 +50,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             "name" : "Samuel Frederickson",
             "position" : "U.S. Representative",
             "party" : "D",
-            "lat" : "30.232060",
-            "lng" : "-97.720949",
+            "address" : "2132 Wickersham Ln, Austin, TX 78741",
             "state" : "TX",
             "lifetimeFunding" : "$237,000",
             "photo" : "Frederickson, Samuel.png"
@@ -86,17 +83,44 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         for var i = 0; i < politicians.count; i++ {
             var politician = MKPointAnnotation()
             
+            var politicianName:String = politicians[i]["name"]! as String
             var politicianLifetimeFunding:String = politicians[i]["lifetimeFunding"]! as String
             
-            // Converts string to "double" data type
-            var lat = NSString(string: politicians[i]["lat"]).doubleValue
-            var lng = NSString(string: politicians[i]["lng"]).doubleValue
+            var address = politicians[i]["address"]
+
             
-            politician.coordinate = CLLocationCoordinate2DMake(lat as CLLocationDegrees, lng as CLLocationDegrees)
-            politician.title = politicians[i]["name"]! as String
-            politician.subtitle = "Lifetime Funding: \(politicianLifetimeFunding)"
-            
-            kochMap.addAnnotation(politician)
+//            var lat = NSString(string: politicians[i]["lat"]).doubleValue
+//            var lng = NSString(string: politicians[i]["lng"]).doubleValue
+//            
+//            politician.coordinate = CLLocationCoordinate2DMake(lat as CLLocationDegrees, lng as CLLocationDegrees)
+//            politician.title = politicians[i]["name"]! as String
+//            politician.subtitle = "Lifetime Funding: \(politicianLifetimeFunding)"
+//            
+//            kochMap.addAnnotation(politician)
+
+            // Converts address to latitude and longitude and then plots it on map
+            var geocoder = CLGeocoder()
+            geocoder.geocodeAddressString(address, completionHandler:{
+                (placemarks, error) in
+                
+                if (error) {
+                    println("JASEN|Error: \(error)")
+                } else {
+                    println("JASEN|Placemarks: \(placemarks)")
+                    
+                    let p = CLPlacemark(placemark: placemarks?[0] as CLPlacemark)
+                    
+                    var pLat:Double = p.location.coordinate.latitude
+                    var pLng:Double = p.location.coordinate.longitude
+                    
+                    politician.coordinate = CLLocationCoordinate2DMake(pLat as CLLocationDegrees, pLng as CLLocationDegrees)
+
+                    politician.title = politicianName
+                    politician.subtitle = "Lifetime Funding: \(politicianLifetimeFunding)"
+                    
+                    self.kochMap.addAnnotation(politician)
+                }
+            })
         }
     }
 
