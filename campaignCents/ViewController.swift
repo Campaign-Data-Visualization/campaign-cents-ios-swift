@@ -11,7 +11,7 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-    // Creates the variables that will be passed onto MapVC
+    // Creates variables to be passed onto MapVC
     var latSelected:Double = 0.0
     var lngSelected:Double = 0.0
     var deltaSelected:Double = 0.0
@@ -58,7 +58,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         deltaSelected = 0.21
     }
     
-    // The "Near Me" button that retrieves the user location information before segueing to map
+    // The "Near Me" button which retrieves the user location information before segueing to map
     @IBAction func nearMe(sender: AnyObject) {
         println("JASEN|'Near Me' button pressed")
     }
