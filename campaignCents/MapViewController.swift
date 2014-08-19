@@ -104,6 +104,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     
         let mySession = NSURLSession.sharedSession()
         
+        // Only works with ZIP and cities with no spaces in name (ex: "San Jose" would not work)
         var urlString:String = "https://maps.googleapis.com/maps/api/geocode/json?address=\(location)"
         println("JASEN| \(urlString)")
         
@@ -184,7 +185,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         return pinView
     }
     
-    // Function of what happens when callout per annotation touched (clicked)
+    // Segues to profileVC when annotation tapped
     func mapView(mapView: MKMapView!, annotationView: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
         for var i = 0; i < politicians.count; i++ {
@@ -197,7 +198,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         self.performSegueWithIdentifier("fromMaptoProfile", sender: view)
     }
 
-    // Function to send politician information to ProfileVC
+    // Sends politician information to ProfileVC
     override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
         if segue.identifier == "fromMaptoProfile" {
             println("JASEN|seguing fromMaptoProfile")
