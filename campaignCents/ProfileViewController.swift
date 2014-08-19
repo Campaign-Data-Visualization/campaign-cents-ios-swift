@@ -18,11 +18,15 @@ class ProfileViewController: UIViewController {
     @IBOutlet var currentFunding: UILabel!
     @IBOutlet var lifetimeFunding: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        politicianImage.image = UIImage(named: politician["photo"])
+        // Grabs photo from url
+        let url = NSURL.URLWithString(politician["photo"]);
+        var err: NSError?
+        var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+        politicianImage.image = UIImage(data:imageData)
+        
         politicianName.setTitle(politician["name"], forState: .Normal)
         
         var pos:String = politician["position"]!
