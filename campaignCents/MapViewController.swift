@@ -35,7 +35,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             "address" : "300 E 8th, Suite 961, Austin, TX 78701",
             "state" : "TX",
             "lifetimeFunding" : "$230,000",
-            "photo" : "Cruz, Ted.png"
+            "photo" : "http://static.votesmart.org/canphoto/117285.jpg"
         ],
         [
             "name" : "Roger Williams",
@@ -44,7 +44,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             "address" : "1005 Congress Avenue, Suite 925. Austin, TX 78701",
             "state" : "TX",
             "lifetimeFunding" : "$107,000",
-            "photo" : "Williams, Roger.png"
+            "photo" : "http://static.votesmart.org/canphoto/6382.jpg"
         ],
         [
             "name" : "Samuel Frederickson",
@@ -53,7 +53,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             "address" : "2132 Wickersham Ln, Austin, TX 78741",
             "state" : "TX",
             "lifetimeFunding" : "$237,000",
-            "photo" : "Frederickson, Samuel.png"
+            "photo" : "http://static.votesmart.org/canphoto/2698.jpg"
         ]
     ]
     
@@ -88,17 +88,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             
             var address = politicians[i]["address"]
 
-            
-//            var lat = NSString(string: politicians[i]["lat"]).doubleValue
-//            var lng = NSString(string: politicians[i]["lng"]).doubleValue
-//            
-//            politician.coordinate = CLLocationCoordinate2DMake(lat as CLLocationDegrees, lng as CLLocationDegrees)
-//            politician.title = politicians[i]["name"]! as String
-//            politician.subtitle = "Lifetime Funding: \(politicianLifetimeFunding)"
-//            
-//            kochMap.addAnnotation(politician)
-
-            // Converts address to latitude and longitude and then plots it on map
+            // Converts address to latitude and lonjgitude and then plots it on map
             var geocoder = CLGeocoder()
             geocoder.geocodeAddressString(address, completionHandler:{
                 (placemarks, error) in
@@ -197,7 +187,12 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             for var i = 0; i < politicians.count; i++ {
                 if annotation.title == politicians[i]["name"] {
                     var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
-                    imageview.image = UIImage(named: politicians[i]["photo"])
+                    
+                    let url = NSURL.URLWithString(politicians[i]["photo"]);
+                    var err: NSError?
+                    var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+                    imageview.image = UIImage(data:imageData)
+                    
                     pinView!.leftCalloutAccessoryView = imageview
                 }
             }
