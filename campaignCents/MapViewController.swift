@@ -28,7 +28,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     
     // Defaults to city-level view
     var deltaSelected:Double = 0.11
-    var politician = Dictionary<String, String>()
+    var politician = NSDictionary()
     
     override func viewDidLoad() {
         super.viewDidLoad()

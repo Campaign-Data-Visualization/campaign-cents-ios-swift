@@ -10,7 +10,7 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
-    var politician = Dictionary<String, String>()
+    var politician = NSDictionary()
     
     @IBOutlet var politicianImage: UIImageView!
     @IBOutlet var politicianName: UIButton!
