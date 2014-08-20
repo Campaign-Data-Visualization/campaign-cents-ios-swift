@@ -63,12 +63,12 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
             var politician = MKPointAnnotation()
             
-            var politicianName:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["name"]! as String
-            var politicianLifetimeFunding:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["lifetimeFunding"]! as String
+            var politicianName:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as String
+            var politicianLifetimeFunding:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["lifetimeFunding"]! as String
             
-            var street:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["street"] as String
-            var city:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["city"] as String
-            var state:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["state"] as String
+            var street:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["street"] as String
+            var city:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["city"] as String
+            var state:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["state"] as String
             
             var address = "\(street), \(city) \(state)"
             
@@ -168,18 +168,47 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             pinView!.animatesDrop = true
             pinView!.pinColor = .Red
             
-            for var i = 0; i < (kochPoliticiansDictionary!["New item"] as NSArray).count; i++ {
-                if annotation.title == (kochPoliticiansDictionary!["New item"] as NSArray)[i]["name"]! as? String {
-                    var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
-                    
-                    let url = NSURL.URLWithString((kochPoliticiansDictionary!["New item"] as NSArray)[i]["photo"]! as? String);
-                    var err: NSError?
-                    var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+            
+            // Hardcode for Pat Toomey photo to appear from Philadelphia
+            if annotation.title? == "Pat Toomey" {
+                var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
+                
+                let url = NSURL.URLWithString("http://static.votesmart.org/canphoto/24096.jpg");
+                var err: NSError?
+                var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+                if imageData != nil {
                     imageview.image = UIImage(data:imageData)
-                    
                     pinView!.leftCalloutAccessoryView = imageview
                 }
             }
+            
+            // Hardcode for Patrick Meehan photo to appear from Philadelphia
+            if annotation.title? == "Patrick Meehan" {
+                var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
+                
+                let url = NSURL.URLWithString("http://static.votesmart.org/canphoto/119474.jpg");
+                var err: NSError?
+                var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+                if imageData != nil {
+                    imageview.image = UIImage(data:imageData)
+                    pinView!.leftCalloutAccessoryView = imageview
+                }
+            }
+            
+//            // CURRENTLY ERRORS OUT WHEN SOME IMAGES RETURN NIL
+//            for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
+//                if annotation.title == (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as? String {
+//                    var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
+//                    
+//                    let url = NSURL.URLWithString((kochPoliticiansDictionary!["New item"]! as NSArray)[i]["photo"]! as? String);
+//                    var err: NSError?
+//                    var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+//                    if imageData != nil {
+//                        imageview.image = UIImage(data:imageData)
+//                        pinView!.leftCalloutAccessoryView = imageview
+//                    }
+//                }
+//            }
             
             pinView!.rightCalloutAccessoryView = UIButton.buttonWithType(.DetailDisclosure) as UIButton
         } else {
@@ -191,9 +220,9 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     // Segues to profileVC when annotation tapped
     func mapView(mapView: MKMapView!, annotationView: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
-        for var i = 0; i < (kochPoliticiansDictionary!["New item"] as NSArray).count; i++ {
-            if (kochPoliticiansDictionary!["New item"] as NSArray)[i]["name"]! as? String == annotationView.annotation.title {
-//                politician = (kochPoliticiansDictionary!["New item"][i] as NSArray)
+        for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
+            if (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as? String == annotationView.annotation.title {
+//                politician = (kochPoliticiansDictionary!["New item"]![i] as NSDictionary)
             }
         }
         
