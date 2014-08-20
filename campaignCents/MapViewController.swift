@@ -54,7 +54,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         kochPoliticiansNationwide.text = "Koch Politicians Nationwide: 242"
 
         
-        // Loading array from kochPoliticians.plist
+        // Loading dictionary from kochPoliticians.plist
         var documentList = NSBundle.mainBundle().pathForResource("kochPoliticians", ofType:"plist")
         kochPoliticiansDictionary = NSDictionary(contentsOfFile: documentList)
         println(" \(__FUNCTION__)Fetching 'kochPoliticians.plist 'file \n \(kochPoliticiansDictionary) \n")
@@ -64,6 +64,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             var politician = MKPointAnnotation()
             
             var politicianName:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as String
+            println("JASEN|politicianName: \(politicianName)")
             var politicianLifetimeFunding:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["lifetimeFunding"]! as String
             
             var street:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["street"] as String
@@ -193,8 +194,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     func mapView(mapView: MKMapView!, annotationView: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
         for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
-            if (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as? String == annotationView.annotation.title {
-//                politician = (kochPoliticiansDictionary!["New item"]![i] as NSDictionary)
+            if (kochPoliticiansDictionary!["New item"]![i]! as NSDictionary)["name"]! as String == annotationView.annotation.title! {
+                politician = (kochPoliticiansDictionary!["New item"]![i]! as NSDictionary)
             }
         }
         

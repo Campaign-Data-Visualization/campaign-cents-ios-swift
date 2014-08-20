@@ -2,4 +2,52 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "campaignCents/MapViewController.swift"
+            timestampString = "430265970.476225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "mapView(_:annotationView:calloutAccessoryControlTapped:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "campaignCents.MapViewController.mapView (campaignCents.MapViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;, annotationView : ObjectiveC.MKAnnotationView, calloutAccessoryControlTapped : ObjectiveC.UIControl) -&gt; ()"
+                  moduleName = "campaignCents"
+                  urlString = "file:///Users/jasenlew/Desktop/Hack%20Reactor/swift/campaignCents/campaignCents/MapViewController.swift"
+                  timestampString = "430266219.21218"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "3244">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "campaignCents.MapViewController.mapView (campaignCents.MapViewController)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;, annotationView : ObjectiveC.MKAnnotationView, calloutAccessoryControlTapped : ObjectiveC.UIControl) -&gt; ()"
+                  moduleName = "campaignCents"
+                  urlString = "file:///Users/jasenlew/Desktop/Hack%20Reactor/swift/campaignCents/campaignCents/MapViewController.swift"
+                  timestampString = "430266219.212338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "3592">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
