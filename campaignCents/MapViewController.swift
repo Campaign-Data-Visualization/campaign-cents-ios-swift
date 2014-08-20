@@ -28,33 +28,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     
     // Temp array of politicians
     var politicians = [
-        [
-            "name" : "Ted Cruz",
-            "position" : "U.S. Senator",
-            "party" : "R",
-            "address" : "300 E 8th, Suite 961, Austin, TX 78701",
-            "state" : "TX",
-            "lifetimeFunding" : "$230,000",
-            "photo" : "http://static.votesmart.org/canphoto/117285.jpg"
-        ],
-        [
-            "name" : "Roger Williams",
-            "position" : "U.S. Representative",
-            "party" : "R",
-            "address" : "1005 Congress Avenue, Suite 925. Austin, TX 78701",
-            "state" : "TX",
-            "lifetimeFunding" : "$107,000",
-            "photo" : "http://static.votesmart.org/canphoto/6382.jpg"
-        ],
-        [
-            "name" : "Samuel Frederickson",
-            "position" : "U.S. Representative",
-            "party" : "D",
-            "address" : "2132 Wickersham Ln, Austin, TX 78741",
-            "state" : "TX",
-            "lifetimeFunding" : "$237,000",
-            "photo" : "http://static.votesmart.org/canphoto/2698.jpg"
-        ]
+        ["voteSmartID":"34230","name":"Marlin Stutzman","street":"0250 West 600 North","city":"Howe","state":"IN","zip":"46746","lifetimeFunding":"$12600","currentFunding":"$5000","photo":"http://static.votesmart.org/canphoto/34230.jpg"],
+        ["voteSmartID":"116570","name":"Bobby Schilling","street":"1 Goembel Court","city":"Colona","state":"IL","zip":"61241","lifetimeFunding":"$25000","currentFunding":"$7500","photo":"http://static.votesmart.org/canphoto/116570.jpg"],
+        ["voteSmartID":"50895","name":"Robert Hurt","street":"10 North Main Street","city":"Chatham","state":"VA","zip":"24531","lifetimeFunding":"$20500","currentFunding":"$4500","photo":"http://static.votesmart.org/canphoto/50895.jpg"],
+        ["voteSmartID":"8751","name":"Mike Rogers","street":"1000 West Saint Joseph Suite 300","city":"Lansing","state":"MI","zip":"48915","lifetimeFunding":"$105860","currentFunding":"$1000","photo":"http://static.votesmart.org/canphoto/8751.jpg"],
+        ["voteSmartID":"18829","name":"Brett Guthrie","street":"1005 Wrenwood Drive","city":"Bowling Green","state":"KY","zip":"42103","lifetimeFunding":"$27000","currentFunding":"$7000","photo":"http://static.votesmart.org/canphoto/18829.jpg"]
     ]
     
     override func viewDidLoad() {
@@ -86,8 +64,12 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             var politicianName:String = politicians[i]["name"]! as String
             var politicianLifetimeFunding:String = politicians[i]["lifetimeFunding"]! as String
             
-            var address = politicians[i]["address"]
-
+            var street:String = politicians[i]["street"]!
+            var city:String = politicians[i]["city"]!
+            var state:String = politicians[i]["state"]!
+            
+            var address = "\(street), \(city) \(state)"
+            
             // Converts address to latitude and lonjgitude and then plots it on map
             var geocoder = CLGeocoder()
             geocoder.geocodeAddressString(address, completionHandler:{
