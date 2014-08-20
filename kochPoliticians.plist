@@ -1,0 +1,4846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>city</key>
+		<string>Howe</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$12,600</string>
+		<key>name</key>
+		<string>Marlin Stutzman</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/34230.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>0250 West 600 North</string>
+		<key>voteSmartID</key>
+		<integer>34230</integer>
+		<key>zip</key>
+		<integer>46746</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Colona</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$25,000</string>
+		<key>name</key>
+		<string>Bobby Schilling</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/116570.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>1 Goembel Court</string>
+		<key>voteSmartID</key>
+		<integer>116570</integer>
+		<key>zip</key>
+		<integer>61241</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Chatham</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$20,500</string>
+		<key>name</key>
+		<string>Robert Hurt</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/50895.jpg</string>
+		<key>state</key>
+		<string>VA</string>
+		<key>street</key>
+		<string>10 North Main Street</string>
+		<key>voteSmartID</key>
+		<integer>50895</integer>
+		<key>zip</key>
+		<integer>24531</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lansing</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$105,860</string>
+		<key>name</key>
+		<string>Mike Rogers</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/8751.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>1000 West Saint Joseph Suite 300</string>
+		<key>voteSmartID</key>
+		<integer>8751</integer>
+		<key>zip</key>
+		<integer>48915</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bowling Green</string>
+		<key>currentFunding</key>
+		<string>$7,000</string>
+		<key>lifetimeFunding</key>
+		<string>$27,000</string>
+		<key>name</key>
+		<string>Brett Guthrie</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/18829.jpg</string>
+		<key>state</key>
+		<string>KY</string>
+		<key>street</key>
+		<string>1005 Wrenwood Drive</string>
+		<key>voteSmartID</key>
+		<integer>18829</integer>
+		<key>zip</key>
+		<integer>42103</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Drexel Hill</string>
+		<key>currentFunding</key>
+		<string>$2,250</string>
+		<key>lifetimeFunding</key>
+		<string>$20,350</string>
+		<key>name</key>
+		<string>Patrick Meehan</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/119474.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>1029 Edmonds Avenue</string>
+		<key>voteSmartID</key>
+		<integer>119474</integer>
+		<key>zip</key>
+		<integer>19026</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Washington</string>
+		<key>currentFunding</key>
+		<string>$14,000</string>
+		<key>lifetimeFunding</key>
+		<string>$26,700</string>
+		<key>name</key>
+		<string>Bill Flores</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/116906.jpg</string>
+		<key>state</key>
+		<string>DC</string>
+		<key>street</key>
+		<string>1030 Longworth House Office Building</string>
+		<key>voteSmartID</key>
+		<integer>116906</integer>
+		<key>zip</key>
+		<integer>20515</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Moore</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$47,500</string>
+		<key>name</key>
+		<string>Tom Cole</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/46034.jpg</string>
+		<key>state</key>
+		<string>OK</string>
+		<key>street</key>
+		<string>104 Briarwood Street</string>
+		<key>voteSmartID</key>
+		<integer>46034</integer>
+		<key>zip</key>
+		<integer>73160</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hopkinsville</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$30,000</string>
+		<key>name</key>
+		<string>Ed Whitfield</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/21873.jpg</string>
+		<key>state</key>
+		<string>KY</string>
+		<key>street</key>
+		<string>108 Alumni Avenue</string>
+		<key>voteSmartID</key>
+		<integer>21873</integer>
+		<key>zip</key>
+		<integer>42240</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Benson</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$6,000</string>
+		<key>name</key>
+		<string>David Rouzer</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/102964.jpg</string>
+		<key>state</key>
+		<string>NC</string>
+		<key>street</key>
+		<string>108 Peach Orchard Drive</string>
+		<key>voteSmartID</key>
+		<integer>102964</integer>
+		<key>zip</key>
+		<integer>27504</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>League City</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$13,000</string>
+		<key>name</key>
+		<string>Randy Weber</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/102026.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>1100 Gulf Freeway Suite 100</string>
+		<key>voteSmartID</key>
+		<integer>102026</integer>
+		<key>zip</key>
+		<integer>77573</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cadillac</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$40,500</string>
+		<key>name</key>
+		<string>Dave Camp</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26911.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>112 Spruce Street, Suite A</string>
+		<key>voteSmartID</key>
+		<integer>26911</integer>
+		<key>zip</key>
+		<integer>49601</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Marysville</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Dan Logue</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/82026.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>11445 Loma Rica Road</string>
+		<key>voteSmartID</key>
+		<integer>82026</integer>
+		<key>zip</key>
+		<integer>95901</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Banner Elk</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$6,525</string>
+		<key>name</key>
+		<string>Virginia Foxx</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/6051.jpg</string>
+		<key>state</key>
+		<string>NC</string>
+		<key>street</key>
+		<string>11468 North Carolina Highway 105 Highway South</string>
+		<key>voteSmartID</key>
+		<integer>6051</integer>
+		<key>zip</key>
+		<integer>28604</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$500</string>
+		<key>name</key>
+		<string>Ed Lindsey</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/32008.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>1150 Angelo Court</string>
+		<key>voteSmartID</key>
+		<integer>32008</integer>
+		<key>zip</key>
+		<integer>30319</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Greensburg</string>
+		<key>currentFunding</key>
+		<string>$8,500</string>
+		<key>lifetimeFunding</key>
+		<string>$20,750</string>
+		<key>name</key>
+		<string>Luke Messer</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/146195.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>119 South Vine Street</string>
+		<key>voteSmartID</key>
+		<integer>146195</integer>
+		<key>zip</key>
+		<integer>47240</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$500</string>
+		<key>name</key>
+		<string>Michelle Nunn</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/151332.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>1206 Spring Street North West</string>
+		<key>voteSmartID</key>
+		<integer>151332</integer>
+		<key>zip</key>
+		<integer>30309</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Halls</string>
+		<key>currentFunding</key>
+		<string>$7,000</string>
+		<key>lifetimeFunding</key>
+		<string>$87,479</string>
+		<key>name</key>
+		<string>Steve Fincher</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/124659.jpg</string>
+		<key>state</key>
+		<string>TN</string>
+		<key>street</key>
+		<string>12313 Johnson Grove Road</string>
+		<key>voteSmartID</key>
+		<integer>124659</integer>
+		<key>zip</key>
+		<integer>38040</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hollidaysburg</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$27,000</string>
+		<key>name</key>
+		<string>Bill Shuster</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/55693.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>1301 Allegheny Street Suite 156 A</string>
+		<key>voteSmartID</key>
+		<integer>55693</integer>
+		<key>zip</key>
+		<integer>16648</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Rapid City</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$500</string>
+		<key>name</key>
+		<string>Mike Rounds</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/7455.jpg</string>
+		<key>state</key>
+		<string>SD</string>
+		<key>street</key>
+		<string>1311 Main Street</string>
+		<key>voteSmartID</key>
+		<integer>7455</integer>
+		<key>zip</key>
+		<integer>57701</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Willsboro</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$500</string>
+		<key>name</key>
+		<string>Elise Stefanik</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/152539.jpg</string>
+		<key>state</key>
+		<string>NY</string>
+		<key>street</key>
+		<string>134 Lakeshore Drive</string>
+		<key>voteSmartID</key>
+		<integer>152539</integer>
+		<key>zip</key>
+		<integer>12996</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Rogers</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$15,000</string>
+		<key>name</key>
+		<string>Steve Womack</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/71815.jpg</string>
+		<key>state</key>
+		<string>AR</string>
+		<key>street</key>
+		<string>134 North Pleasant Ridge Drive</string>
+		<key>voteSmartID</key>
+		<integer>71815</integer>
+		<key>zip</key>
+		<integer>72756</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Carmel</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$2,500</string>
+		<key>name</key>
+		<string>Susan Brooks</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135988.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>13406 Birkenhead Street</string>
+		<key>voteSmartID</key>
+		<integer>135988</integer>
+		<key>zip</key>
+		<integer>46032</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lakeville</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$16,900</string>
+		<key>name</key>
+		<string>Bob Gibbs</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/45466.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>13871 Township Road 473</string>
+		<key>voteSmartID</key>
+		<integer>45466</integer>
+		<key>zip</key>
+		<integer>44638</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Portsmouth</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$31,300</string>
+		<key>name</key>
+		<string>Kelly Ayotte</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/42352.jpg</string>
+		<key>state</key>
+		<string>NH</string>
+		<key>street</key>
+		<string>14 Manchester Square, Suite 140</string>
+		<key>voteSmartID</key>
+		<integer>42352</integer>
+		<key>zip</key>
+		<string>03801</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Wheaton</string>
+		<key>currentFunding</key>
+		<string>$17,800</string>
+		<key>lifetimeFunding</key>
+		<string>$56,050</string>
+		<key>name</key>
+		<string>Peter Roskam</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/6382.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>141 Shelley Lane</string>
+		<key>voteSmartID</key>
+		<integer>6382</integer>
+		<key>zip</key>
+		<integer>60189</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Washington</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$36,500</string>
+		<key>name</key>
+		<string>Randy Neugebauer</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/49522.jpg</string>
+		<key>state</key>
+		<string>DC</string>
+		<key>street</key>
+		<string>1424 Longworth House Office Building</string>
+		<key>voteSmartID</key>
+		<integer>49522</integer>
+		<key>zip</key>
+		<integer>20515</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lake Charles</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$26,000</string>
+		<key>name</key>
+		<string>David Vitter</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/4615.jpg</string>
+		<key>state</key>
+		<string>LA</string>
+		<key>street</key>
+		<string>1424 Ryan Street, Suite A</string>
+		<key>voteSmartID</key>
+		<integer>4615</integer>
+		<key>zip</key>
+		<integer>70601</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Grand Rapids</string>
+		<key>currentFunding</key>
+		<string>$160,047</string>
+		<key>lifetimeFunding</key>
+		<string>$229,547</string>
+		<key>name</key>
+		<string>Justin Amash</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/105566.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>1500 East Beltline Avenue Southeast Suite 250</string>
+		<key>voteSmartID</key>
+		<integer>105566</integer>
+		<key>zip</key>
+		<integer>49506</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bunswick</string>
+		<key>currentFunding</key>
+		<string>$7,100</string>
+		<key>lifetimeFunding</key>
+		<string>$37,100</string>
+		<key>name</key>
+		<string>Jack Kingston</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26816.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>1510 Newcastle Street, Suite 200</string>
+		<key>voteSmartID</key>
+		<integer>26816</integer>
+		<key>zip</key>
+		<integer>31520</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bowling Green</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$18,500</string>
+		<key>name</key>
+		<string>Robert E Latta</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/9926.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>1528 Muirfield Drive</string>
+		<key>voteSmartID</key>
+		<integer>9926</integer>
+		<key>zip</key>
+		<integer>43402</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hazleton</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$23,000</string>
+		<key>name</key>
+		<string>Lou Barletta</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/47143.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>1529 Terrace Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>47143</integer>
+		<key>zip</key>
+		<integer>18201</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Dillsburg</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$8,000</string>
+		<key>name</key>
+		<string>Scott Perry</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/59980.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>155 Warrington Road</string>
+		<key>voteSmartID</key>
+		<integer>59980</integer>
+		<key>zip</key>
+		<integer>17019</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Philadelphia</string>
+		<key>currentFunding</key>
+		<string>$14,900</string>
+		<key>lifetimeFunding</key>
+		<string>$915,412</string>
+		<key>name</key>
+		<string>Pat Toomey</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/24096.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>1628 John F. Kennedy Boulevard Suite 1702</string>
+		<key>voteSmartID</key>
+		<integer>24096</integer>
+		<key>zip</key>
+		<integer>19103</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Greeley</string>
+		<key>currentFunding</key>
+		<string>$1,500</string>
+		<key>lifetimeFunding</key>
+		<string>$1,500</string>
+		<key>name</key>
+		<string>David Young</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/134314.jpg</string>
+		<key>state</key>
+		<string>CO</string>
+		<key>street</key>
+		<string>1700 21st Avenue</string>
+		<key>voteSmartID</key>
+		<integer>134314</integer>
+		<key>zip</key>
+		<integer>80631</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Urbana</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$16,000</string>
+		<key>name</key>
+		<string>Jim Jordan</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/8158.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>1709 South State Route 560</string>
+		<key>voteSmartID</key>
+		<integer>8158</integer>
+		<key>zip</key>
+		<integer>43078</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Round Rock</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$42,288</string>
+		<key>name</key>
+		<string>John Carter</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/49296.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>1717 North Interstate Highway 35, Suite 304</string>
+		<key>voteSmartID</key>
+		<integer>49296</integer>
+		<key>zip</key>
+		<integer>78664</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Corpus Christi</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$25,750</string>
+		<key>name</key>
+		<string>Blake Farenthold</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/116919.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>1718 South Alameda</string>
+		<key>voteSmartID</key>
+		<integer>116919</integer>
+		<key>zip</key>
+		<integer>78404</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Corpus Christi</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$25,750</string>
+		<key>name</key>
+		<string>Blake Farenthold</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/116919.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>1718 South Alameda</string>
+		<key>voteSmartID</key>
+		<integer>116919</integer>
+		<key>zip</key>
+		<integer>78404</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Fremont</string>
+		<key>currentFunding</key>
+		<string>$140,060</string>
+		<key>lifetimeFunding</key>
+		<string>$140,060</string>
+		<key>name</key>
+		<string>Ben Sasse</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/150182.jpg</string>
+		<key>state</key>
+		<string>NE</string>
+		<key>street</key>
+		<string>1747 Laguna Drive</string>
+		<key>voteSmartID</key>
+		<integer>150182</integer>
+		<key>zip</key>
+		<integer>68025</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Vista</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$31,500</string>
+		<key>name</key>
+		<string>Darrell Issa</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/16553.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>1800 Thibodo Road, Suite 300</string>
+		<key>voteSmartID</key>
+		<integer>16553</integer>
+		<key>zip</key>
+		<integer>92081</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cheyenne</string>
+		<key>currentFunding</key>
+		<string>$12,600</string>
+		<key>lifetimeFunding</key>
+		<string>$18,600</string>
+		<key>name</key>
+		<string>Mike Enzi</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/558.jpg</string>
+		<key>state</key>
+		<string>WY</string>
+		<key>street</key>
+		<string>1813 Carey Avenue</string>
+		<key>voteSmartID</key>
+		<integer>558</integer>
+		<key>zip</key>
+		<integer>82001</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Eagle</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$16,000</string>
+		<key>name</key>
+		<string>Raul Labrador</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/57391.jpg</string>
+		<key>state</key>
+		<string>ID</string>
+		<key>street</key>
+		<string>1846 West Rush Road</string>
+		<key>voteSmartID</key>
+		<integer>57391</integer>
+		<key>zip</key>
+		<integer>83616</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Castlewood</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$15,000</string>
+		<key>name</key>
+		<string>Kristi Noem</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/58189.jpg</string>
+		<key>state</key>
+		<string>SD</string>
+		<key>street</key>
+		<string>18575 United States Highway 81</string>
+		<key>voteSmartID</key>
+		<integer>58189</integer>
+		<key>zip</key>
+		<integer>57223</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Charles Town</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$2,000</string>
+		<key>name</key>
+		<string>Alex Mooney</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/145943.jpg</string>
+		<key>state</key>
+		<string>WV</string>
+		<key>street</key>
+		<string>188 Huntfield Lane</string>
+		<key>voteSmartID</key>
+		<integer>145943</integer>
+		<key>zip</key>
+		<integer>25414</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cornelius</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Thom Tillis</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/57717.jpg</string>
+		<key>state</key>
+		<string>NC</string>
+		<key>street</key>
+		<string>18809 West Catawba Avenue Suite 101</string>
+		<key>voteSmartID</key>
+		<integer>57717</integer>
+		<key>zip</key>
+		<integer>28031</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>East Hartford</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,500</string>
+		<key>name</key>
+		<string>John B Larson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/17188.jpg</string>
+		<key>state</key>
+		<string>CT</string>
+		<key>street</key>
+		<string>1887 Main Street</string>
+		<key>voteSmartID</key>
+		<integer>17188</integer>
+		<key>zip</key>
+		<string>06108</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>New Castle</string>
+		<key>currentFunding</key>
+		<string>$250</string>
+		<key>lifetimeFunding</key>
+		<string>$500</string>
+		<key>name</key>
+		<string>Chris Coons</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/122834.jpg</string>
+		<key>state</key>
+		<string>DE</string>
+		<key>street</key>
+		<string>19 East Commons Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>122834</integer>
+		<key>zip</key>
+		<integer>19720</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Oroville</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$7,000</string>
+		<key>name</key>
+		<string>Doug LaMalfa</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/29713.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>1900 Oro Dam Boulevard East, Suite 12-254</string>
+		<key>voteSmartID</key>
+		<integer>29713</integer>
+		<key>zip</key>
+		<integer>95966</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Birmingham</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,000</string>
+		<key>name</key>
+		<string>Gary Palmer</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/146274.jpg</string>
+		<key>state</key>
+		<string>AL</string>
+		<key>street</key>
+		<string>1919 Oxmoor Road Number 235</string>
+		<key>voteSmartID</key>
+		<integer>146274</integer>
+		<key>zip</key>
+		<integer>35209</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Winfield</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$16,000</string>
+		<key>name</key>
+		<string>Randy Hultgren</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/18199.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>1S651 Verdun Drive</string>
+		<key>voteSmartID</key>
+		<integer>18199</integer>
+		<key>zip</key>
+		<integer>60190</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Charleston</string>
+		<key>currentFunding</key>
+		<string>$16,900</string>
+		<key>lifetimeFunding</key>
+		<string>$52,900</string>
+		<key>name</key>
+		<string>Shelley Moore Capito</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/11701.jpg</string>
+		<key>state</key>
+		<string>WV</string>
+		<key>street</key>
+		<string>2 Comstock Place</string>
+		<key>voteSmartID</key>
+		<integer>11701</integer>
+		<key>zip</key>
+		<integer>25314</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hobbs</string>
+		<key>currentFunding</key>
+		<string>$4,000</string>
+		<key>lifetimeFunding</key>
+		<string>$425,867</string>
+		<key>name</key>
+		<string>Steve Pearce</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/10655.jpg</string>
+		<key>state</key>
+		<string>NM</string>
+		<key>street</key>
+		<string>2009 North McKinley Street</string>
+		<key>voteSmartID</key>
+		<integer>10655</integer>
+		<key>zip</key>
+		<integer>88240</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Paulden</string>
+		<key>currentFunding</key>
+		<string>$2,600</string>
+		<key>lifetimeFunding</key>
+		<string>$2,600</string>
+		<key>name</key>
+		<string>Andy Tobin</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/68079.jpg</string>
+		<key>state</key>
+		<string>AZ</string>
+		<key>street</key>
+		<string>20755 North Hackmore Lane</string>
+		<key>voteSmartID</key>
+		<integer>68079</integer>
+		<key>zip</key>
+		<integer>86334</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Jefferson City</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$2,000</string>
+		<key>name</key>
+		<string>Blaine Luetkemeyer</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/20400.jpg</string>
+		<key>state</key>
+		<string>MO</string>
+		<key>street</key>
+		<string>2117 Missouri Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>20400</integer>
+		<key>zip</key>
+		<integer>65109</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Carrollton</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$22,500</string>
+		<key>name</key>
+		<string>Kenny Marchant</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/5549.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>2125 North Josey Lane Suite 200</string>
+		<key>voteSmartID</key>
+		<integer>5549</integer>
+		<key>zip</key>
+		<integer>75006</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Tulsa</string>
+		<key>currentFunding</key>
+		<string>$10,200</string>
+		<key>lifetimeFunding</key>
+		<string>$84,050</string>
+		<key>name</key>
+		<string>James M Inhofe</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/27027.jpg</string>
+		<key>state</key>
+		<string>OK</string>
+		<key>street</key>
+		<string>2139 East 32nd Street</string>
+		<key>voteSmartID</key>
+		<integer>27027</integer>
+		<key>zip</key>
+		<integer>74105</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Sterling</string>
+		<key>currentFunding</key>
+		<string>$15,250</string>
+		<key>lifetimeFunding</key>
+		<string>$15,250</string>
+		<key>name</key>
+		<string>Barbara Comstock</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/112252.jpg</string>
+		<key>state</key>
+		<string>VA</string>
+		<key>street</key>
+		<string>21430 Cedar Drive Number 118</string>
+		<key>voteSmartID</key>
+		<integer>112252</integer>
+		<key>zip</key>
+		<integer>20164</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Colorado Springs</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$32,500</string>
+		<key>name</key>
+		<string>Douglas L Lamborn</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/2698.jpg</string>
+		<key>state</key>
+		<string>CO</string>
+		<key>street</key>
+		<string>2190 Mulligan Drive</string>
+		<key>voteSmartID</key>
+		<integer>2698</integer>
+		<key>zip</key>
+		<integer>80920</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Little Rock</string>
+		<key>currentFunding</key>
+		<string>$4,000</string>
+		<key>lifetimeFunding</key>
+		<string>$24,000</string>
+		<key>name</key>
+		<string>Mark Pryor</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/35.jpg</string>
+		<key>state</key>
+		<string>AR</string>
+		<key>street</key>
+		<string>2200 Andover Court #901</string>
+		<key>voteSmartID</key>
+		<integer>35</integer>
+		<key>zip</key>
+		<integer>72227</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Pittsburgh</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$27,500</string>
+		<key>name</key>
+		<string>Tim Murphy</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/9794.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>221 Brookside Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>9794</integer>
+		<key>zip</key>
+		<integer>15241</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Manchester</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$22,700</string>
+		<key>name</key>
+		<string>Frank Guinta</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/42946.jpg</string>
+		<key>state</key>
+		<string>NH</string>
+		<key>street</key>
+		<string>221 Crestview Road</string>
+		<key>voteSmartID</key>
+		<integer>42946</integer>
+		<key>zip</key>
+		<string>03104</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Corning</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$11,500</string>
+		<key>name</key>
+		<string>Tom Reed</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/127046.jpg</string>
+		<key>state</key>
+		<string>NY</string>
+		<key>street</key>
+		<string>221 Washington Street</string>
+		<key>voteSmartID</key>
+		<integer>127046</integer>
+		<key>zip</key>
+		<integer>14830</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Thousand Oaks</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Jeff Gorell</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/29051.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>2219 East Thousand Oaks Boulevard, Suite 209</string>
+		<key>voteSmartID</key>
+		<integer>29051</integer>
+		<key>zip</key>
+		<integer>91362</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Peoria</string>
+		<key>currentFunding</key>
+		<string>$7,600</string>
+		<key>lifetimeFunding</key>
+		<string>$18,600</string>
+		<key>name</key>
+		<string>Aaron Schock</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/33428.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>222 West Detweiller Drive</string>
+		<key>voteSmartID</key>
+		<integer>33428</integer>
+		<key>zip</key>
+		<integer>61615</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Sewickley</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$198,428</string>
+		<key>name</key>
+		<string>Keith J Rothfus</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/119466.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>227 Walnut Street</string>
+		<key>voteSmartID</key>
+		<integer>119466</integer>
+		<key>zip</key>
+		<integer>15143</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>South Bend</string>
+		<key>currentFunding</key>
+		<string>$51,200</string>
+		<key>lifetimeFunding</key>
+		<string>$127,750</string>
+		<key>name</key>
+		<string>Tim Scott</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/148199.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>227 West Jefferson Boulevard, Suite 400 S</string>
+		<key>voteSmartID</key>
+		<integer>148199</integer>
+		<key>zip</key>
+		<integer>46601</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Newhall</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$22,000</string>
+		<key>name</key>
+		<string>Tony Strickland</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/16765.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>22924 Lyons Avenue, Suite 104</string>
+		<key>voteSmartID</key>
+		<integer>16765</integer>
+		<key>zip</key>
+		<integer>91321</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Salem</string>
+		<key>currentFunding</key>
+		<string>$7,700</string>
+		<key>lifetimeFunding</key>
+		<string>$7,700</string>
+		<key>name</key>
+		<string>Marilinda Garcia</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/69075.jpg</string>
+		<key>state</key>
+		<string>NH</string>
+		<key>street</key>
+		<string>23 School Street</string>
+		<key>voteSmartID</key>
+		<integer>69075</integer>
+		<key>zip</key>
+		<string>03079</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Chicago</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$123,179</string>
+		<key>name</key>
+		<string>Mark Kirk</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/33502.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>230 South Dearborn Suite 3900</string>
+		<key>voteSmartID</key>
+		<integer>33502</integer>
+		<key>zip</key>
+		<integer>60604</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Louisville</string>
+		<key>currentFunding</key>
+		<string>$25,601</string>
+		<key>lifetimeFunding</key>
+		<string>$111,326</string>
+		<key>name</key>
+		<string>Mitch McConnell</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/53298.jpg</string>
+		<key>state</key>
+		<string>KY</string>
+		<key>street</key>
+		<string>2318 Dundee Road</string>
+		<key>voteSmartID</key>
+		<integer>53298</integer>
+		<key>zip</key>
+		<integer>40205</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Jefferson</string>
+		<key>currentFunding</key>
+		<string>$12,700</string>
+		<key>lifetimeFunding</key>
+		<string>$38,200</string>
+		<key>name</key>
+		<string>Steve Scalise</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/9026.jpg</string>
+		<key>state</key>
+		<string>LA</string>
+		<key>street</key>
+		<string>234 Jefferson Heights Avenue</string>
+		<key>voteSmartID</key>
+		<integer>9026</integer>
+		<key>zip</key>
+		<integer>70121</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lake Forest</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Mimi Walters</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/29346.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>23615 El Toro Road, Suite U</string>
+		<key>voteSmartID</key>
+		<integer>29346</integer>
+		<key>zip</key>
+		<integer>92630</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Omaha</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$24,500</string>
+		<key>name</key>
+		<string>Lee Terry</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/21276.jpg</string>
+		<key>state</key>
+		<string>NE</string>
+		<key>street</key>
+		<string>238 North 114th</string>
+		<key>voteSmartID</key>
+		<integer>21276</integer>
+		<key>zip</key>
+		<integer>68154</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Butler</string>
+		<key>currentFunding</key>
+		<string>$9,500</string>
+		<key>lifetimeFunding</key>
+		<string>$27,500</string>
+		<key>name</key>
+		<string>Mike Kelly</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/119463.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>239 West Pearl Street</string>
+		<key>voteSmartID</key>
+		<integer>119463</integer>
+		<key>zip</key>
+		<integer>16001</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>MANHATTAN</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$79,350</string>
+		<key>name</key>
+		<string>Jerry Moran</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/542.jpg</string>
+		<key>state</key>
+		<string>KS</string>
+		<key>street</key>
+		<string>2400 SUMAC DR</string>
+		<key>voteSmartID</key>
+		<integer>542</integer>
+		<key>zip</key>
+		<integer>66502</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Henderson</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$32,250</string>
+		<key>name</key>
+		<string>Joe Heck</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/44082.jpg</string>
+		<key>state</key>
+		<string>NV</string>
+		<key>street</key>
+		<string>2420 West Horizon Ridge Parkway, Suite 100</string>
+		<key>voteSmartID</key>
+		<integer>44082</integer>
+		<key>zip</key>
+		<integer>89052</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Channahon</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$23,700</string>
+		<key>name</key>
+		<string>Adam Kinzinger</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/116559.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>25566 South Keating Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>116559</integer>
+		<key>zip</key>
+		<integer>60410</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>MT LAUREL</string>
+		<key>currentFunding</key>
+		<string>$250</string>
+		<key>lifetimeFunding</key>
+		<string>$16,250</string>
+		<key>name</key>
+		<string>Jon Runyan</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/121117.jpg</string>
+		<key>state</key>
+		<string>NJ</string>
+		<key>street</key>
+		<string>263 MT LAUREL RD</string>
+		<key>voteSmartID</key>
+		<integer>121117</integer>
+		<key>zip</key>
+		<string>08054</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Des Moines</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$24,500</string>
+		<key>name</key>
+		<string>Tom Latham</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/22175.jpg</string>
+		<key>state</key>
+		<string>IA</string>
+		<key>street</key>
+		<string>2700 Grand Avenue Suite 109</string>
+		<key>voteSmartID</key>
+		<integer>22175</integer>
+		<key>zip</key>
+		<integer>50312</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Naperville</string>
+		<key>currentFunding</key>
+		<string>$12,500</string>
+		<key>lifetimeFunding</key>
+		<string>$12,500</string>
+		<key>name</key>
+		<string>Darlene Senger</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/74052.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>2821 Blakely Lane</string>
+		<key>voteSmartID</key>
+		<integer>74052</integer>
+		<key>zip</key>
+		<integer>60540</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Billings</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,000</string>
+		<key>name</key>
+		<string>Ryan K Zinke</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/104073.jpg</string>
+		<key>state</key>
+		<string>MT</string>
+		<key>street</key>
+		<string>2925 1st Avenue North, Suite 1</string>
+		<key>voteSmartID</key>
+		<integer>104073</integer>
+		<key>zip</key>
+		<integer>59101</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Rockwall</string>
+		<key>currentFunding</key>
+		<string>$77,375</string>
+		<key>lifetimeFunding</key>
+		<string>$77,375</string>
+		<key>name</key>
+		<string>John Lee Ratcliffe</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/147381.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>2931 Ridge Road Suite 101</string>
+		<key>voteSmartID</key>
+		<integer>147381</integer>
+		<key>zip</key>
+		<integer>75032</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Dardanelle</string>
+		<key>currentFunding</key>
+		<string>$278,685</string>
+		<key>lifetimeFunding</key>
+		<string>$285,185</string>
+		<key>name</key>
+		<string>Tom Cotton</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135651.jpg</string>
+		<key>state</key>
+		<string>AR</string>
+		<key>street</key>
+		<string>302 North 2nd Street</string>
+		<key>voteSmartID</key>
+		<integer>135651</integer>
+		<key>zip</key>
+		<integer>72834</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Taylorville</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$10,000</string>
+		<key>name</key>
+		<string>Rodney Davis</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/9622.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>305 Beechwood Drive</string>
+		<key>voteSmartID</key>
+		<integer>9622</integer>
+		<key>zip</key>
+		<integer>62568</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Brainerd</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$2,500</string>
+		<key>name</key>
+		<string>Stewart Mills</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/146058.jpg</string>
+		<key>state</key>
+		<string>MN</string>
+		<key>street</key>
+		<string>310 South 6th Street</string>
+		<key>voteSmartID</key>
+		<integer>146058</integer>
+		<key>zip</key>
+		<integer>56401</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Ballwin</string>
+		<key>currentFunding</key>
+		<string>$3,000</string>
+		<key>lifetimeFunding</key>
+		<string>$8,000</string>
+		<key>name</key>
+		<string>Ann L Wagner</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/136083.jpg</string>
+		<key>state</key>
+		<string>MO</string>
+		<key>street</key>
+		<string>313 Saint Andrews Court</string>
+		<key>voteSmartID</key>
+		<integer>136083</integer>
+		<key>zip</key>
+		<integer>63011</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Alpine</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$11,000</string>
+		<key>name</key>
+		<string>Jason Chaffetz</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/103482.jpg</string>
+		<key>state</key>
+		<string>UT</string>
+		<key>street</key>
+		<string>315 Westfield Circle</string>
+		<key>voteSmartID</key>
+		<integer>103482</integer>
+		<key>zip</key>
+		<integer>84004</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Aberdeen</string>
+		<key>currentFunding</key>
+		<string>$1,500</string>
+		<key>lifetimeFunding</key>
+		<string>$220,527</string>
+		<key>name</key>
+		<string>John Thune</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/398.jpg</string>
+		<key>state</key>
+		<string>SD</string>
+		<key>street</key>
+		<string>320 South 1st Street Suite 101</string>
+		<key>voteSmartID</key>
+		<integer>398</integer>
+		<key>zip</key>
+		<integer>57401</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Springfield</string>
+		<key>currentFunding</key>
+		<string>$11,000</string>
+		<key>lifetimeFunding</key>
+		<string>$20,500</string>
+		<key>name</key>
+		<string>Billy Long</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/123401.jpg</string>
+		<key>state</key>
+		<string>MO</string>
+		<key>street</key>
+		<string>3246 East Ridgeview Street</string>
+		<key>voteSmartID</key>
+		<integer>123401</integer>
+		<key>zip</key>
+		<integer>65804</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Charleston</string>
+		<key>currentFunding</key>
+		<string>$25,900</string>
+		<key>lifetimeFunding</key>
+		<string>$25,900</string>
+		<key>name</key>
+		<string>Mark Sanford</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/21991.jpg</string>
+		<key>state</key>
+		<string>SC</string>
+		<key>street</key>
+		<string>330 Concord Street, Apartment 8A</string>
+		<key>voteSmartID</key>
+		<integer>21991</integer>
+		<key>zip</key>
+		<integer>29401</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Scottsbluff</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$249,886</string>
+		<key>name</key>
+		<string>Adrian Smith</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/21284.jpg</string>
+		<key>state</key>
+		<string>NE</string>
+		<key>street</key>
+		<string>3321 Avenue I</string>
+		<key>voteSmartID</key>
+		<integer>21284</integer>
+		<key>zip</key>
+		<integer>69361</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Burnsville</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$72,850</string>
+		<key>name</key>
+		<string>John Kline</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/20311.jpg</string>
+		<key>state</key>
+		<string>MN</string>
+		<key>street</key>
+		<string>350 West Burnsville Parkway Suite 375</string>
+		<key>voteSmartID</key>
+		<integer>20311</integer>
+		<key>zip</key>
+		<integer>55337</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cogan Station</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$6,000</string>
+		<key>name</key>
+		<string>Tom Marino</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/119478.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>358 Kinley Drive</string>
+		<key>voteSmartID</key>
+		<integer>119478</integer>
+		<key>zip</key>
+		<integer>17728</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Little Rock</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$500</string>
+		<key>name</key>
+		<string>French Hill</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/146290.jpg</string>
+		<key>state</key>
+		<string>AR</string>
+		<key>street</key>
+		<string>3600 Cantrell Road Suite #202</string>
+		<key>voteSmartID</key>
+		<integer>146290</integer>
+		<key>zip</key>
+		<integer>72202</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>ANCHORAGE</string>
+		<key>currentFunding</key>
+		<string>$5,200</string>
+		<key>lifetimeFunding</key>
+		<string>$5,200</string>
+		<key>name</key>
+		<string>Dan Sullivan</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/142486.jpg</string>
+		<key>state</key>
+		<string>AK</string>
+		<key>street</key>
+		<string>3705 ARCTIC BOULEVARD #447</string>
+		<key>voteSmartID</key>
+		<integer>142486</integer>
+		<key>zip</key>
+		<integer>99503</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Athens</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$93,073</string>
+		<key>name</key>
+		<string>Paul Broun</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/70001.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>3706 Atlanta Highway Suite 2</string>
+		<key>voteSmartID</key>
+		<integer>70001</integer>
+		<key>zip</key>
+		<integer>30606</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Kiron</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$305,283</string>
+		<key>name</key>
+		<string>Steven A King</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/10853.jpg</string>
+		<key>state</key>
+		<string>IA</string>
+		<key>street</key>
+		<string>3897 Esther Avenue</string>
+		<key>voteSmartID</key>
+		<integer>10853</integer>
+		<key>zip</key>
+		<integer>51448</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cheyenne</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$14,500</string>
+		<key>name</key>
+		<string>Cynthia Marie Lummis</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/15546.jpg</string>
+		<key>state</key>
+		<string>WY</string>
+		<key>street</key>
+		<string>3905 Bent Avenue</string>
+		<key>voteSmartID</key>
+		<integer>15546</integer>
+		<key>zip</key>
+		<integer>82001</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Tulsa</string>
+		<key>currentFunding</key>
+		<string>$3,600</string>
+		<key>lifetimeFunding</key>
+		<string>$8,600</string>
+		<key>name</key>
+		<string>James Bridenstine</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135894.jpg</string>
+		<key>state</key>
+		<string>OK</string>
+		<key>street</key>
+		<string>3939 South Harvard Avenue Suite 135</string>
+		<key>voteSmartID</key>
+		<integer>135894</integer>
+		<key>zip</key>
+		<integer>74135</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Alpharetta</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$2,500</string>
+		<key>name</key>
+		<string>Karen Handel</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/69553.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>3970 Old Milton Parkway, Suite 100</string>
+		<key>voteSmartID</key>
+		<integer>69553</integer>
+		<key>zip</key>
+		<integer>30005</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Anchorage</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,000</string>
+		<key>name</key>
+		<string>Mead Treadwell</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/123210.jpg</string>
+		<key>state</key>
+		<string>AK</string>
+		<key>street</key>
+		<string>401 East Northern Lights Suite 101</string>
+		<key>voteSmartID</key>
+		<integer>123210</integer>
+		<key>zip</key>
+		<integer>99503</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Wausau</string>
+		<key>currentFunding</key>
+		<string>$11,250</string>
+		<key>lifetimeFunding</key>
+		<string>$34,250</string>
+		<key>name</key>
+		<string>Sean P Duffy</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/126238.jpg</string>
+		<key>state</key>
+		<string>WI</string>
+		<key>street</key>
+		<string>4015 Crestwood Drive</string>
+		<key>voteSmartID</key>
+		<integer>126238</integer>
+		<key>zip</key>
+		<integer>54403</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Boise</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$17,000</string>
+		<key>name</key>
+		<string>James E Risch</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/2919.jpg</string>
+		<key>state</key>
+		<string>ID</string>
+		<key>street</key>
+		<string>407 West Jefferson Street</string>
+		<key>voteSmartID</key>
+		<integer>2919</integer>
+		<key>zip</key>
+		<integer>83702</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Prescott</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$13,500</string>
+		<key>name</key>
+		<string>Paul Gosar</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/123491.jpg</string>
+		<key>state</key>
+		<string>AZ</string>
+		<key>street</key>
+		<string>417 East Gurley Street</string>
+		<key>voteSmartID</key>
+		<integer>123491</integer>
+		<key>zip</key>
+		<integer>86303</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Roanoke</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$36,550</string>
+		<key>name</key>
+		<string>Bob Goodlatte</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/27116.jpg</string>
+		<key>state</key>
+		<string>VA</string>
+		<key>street</key>
+		<string>4208 Brambleton Avenue</string>
+		<key>voteSmartID</key>
+		<integer>27116</integer>
+		<key>zip</key>
+		<integer>24018</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Mesa</string>
+		<key>currentFunding</key>
+		<string>$1,724</string>
+		<key>lifetimeFunding</key>
+		<string>$1,035,110</string>
+		<key>name</key>
+		<string>Jeff Flake</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/28128.jpg</string>
+		<key>state</key>
+		<string>AZ</string>
+		<key>street</key>
+		<string>4222 E MCLELLAN CIRCLE</string>
+		<key>voteSmartID</key>
+		<integer>28128</integer>
+		<key>zip</key>
+		<integer>85205</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Broken Bow</string>
+		<key>currentFunding</key>
+		<string>$9,000</string>
+		<key>lifetimeFunding</key>
+		<string>$19,000</string>
+		<key>name</key>
+		<string>Richard Hudson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/133002.jpg</string>
+		<key>state</key>
+		<string>NE</string>
+		<key>street</key>
+		<string>431 South 10th Street</string>
+		<key>voteSmartID</key>
+		<integer>133002</integer>
+		<key>zip</key>
+		<integer>68822</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Midland</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>John Moolenaar</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/37676.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>4410 Linden Drive</string>
+		<key>voteSmartID</key>
+		<integer>37676</integer>
+		<key>zip</key>
+		<integer>48640</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Clearwater</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$7,500</string>
+		<key>name</key>
+		<string>David Jolly</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/146146.jpg</string>
+		<key>state</key>
+		<string>FL</string>
+		<key>street</key>
+		<string>4585 140th Avenue North Suite 1004</string>
+		<key>voteSmartID</key>
+		<integer>146146</integer>
+		<key>zip</key>
+		<integer>33762</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Greenwood Village</string>
+		<key>currentFunding</key>
+		<string>$15,200</string>
+		<key>lifetimeFunding</key>
+		<string>$25,200</string>
+		<key>name</key>
+		<string>Mike Coffman</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/1535.jpg</string>
+		<key>state</key>
+		<string>CO</string>
+		<key>street</key>
+		<string>4950 South Yosemite Street F2 #511</string>
+		<key>voteSmartID</key>
+		<integer>1535</integer>
+		<key>zip</key>
+		<integer>80111</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Murphysboro</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$7,500</string>
+		<key>name</key>
+		<string>Mike Bost</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/6302.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>5 Porter Lane</string>
+		<key>voteSmartID</key>
+		<integer>6302</integer>
+		<key>zip</key>
+		<integer>62966</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Collinsville</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$56,000</string>
+		<key>name</key>
+		<string>John M Shimkus</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/246.jpg</string>
+		<key>state</key>
+		<string>IL</string>
+		<key>street</key>
+		<string>504 Sumner Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>246</integer>
+		<key>zip</key>
+		<integer>62234</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Myrtle Beach</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,000</string>
+		<key>name</key>
+		<string>Tom Rice</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/132382.jpg</string>
+		<key>state</key>
+		<string>SC</string>
+		<key>street</key>
+		<string>5100 North Ocean Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>132382</integer>
+		<key>zip</key>
+		<integer>29577</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cincinnati</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$8,500</string>
+		<key>name</key>
+		<string>Brad Wenstrup</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135326.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>512 Missouri Avenue</string>
+		<key>voteSmartID</key>
+		<integer>135326</integer>
+		<key>zip</key>
+		<integer>45226</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Yuma</string>
+		<key>currentFunding</key>
+		<string>$20,400</string>
+		<key>lifetimeFunding</key>
+		<string>$40,400</string>
+		<key>name</key>
+		<string>Cory Gardner</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/30004.jpg</string>
+		<key>state</key>
+		<string>CO</string>
+		<key>street</key>
+		<string>514 South Ash Street</string>
+		<key>voteSmartID</key>
+		<integer>30004</integer>
+		<key>zip</key>
+		<integer>80759</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Milwaukee</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$34,050</string>
+		<key>name</key>
+		<string>Ron Johnson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/126217.jpg</string>
+		<key>state</key>
+		<string>WI</string>
+		<key>street</key>
+		<string>517 East Wisconsin Avenue Suite 408</string>
+		<key>voteSmartID</key>
+		<integer>126217</integer>
+		<key>zip</key>
+		<integer>53202</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Marietta</string>
+		<key>currentFunding</key>
+		<string>$5,500</string>
+		<key>lifetimeFunding</key>
+		<string>$16,000</string>
+		<key>name</key>
+		<string>Bill Johnson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/126258.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>519 FIFTH STREET</string>
+		<key>voteSmartID</key>
+		<integer>126258</integer>
+		<key>zip</key>
+		<integer>45750</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Wadsworth</string>
+		<key>currentFunding</key>
+		<string>$5,250</string>
+		<key>lifetimeFunding</key>
+		<string>$21,750</string>
+		<key>name</key>
+		<string>Jim Renacci</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/120678.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>521 Leeds Gate Lane</string>
+		<key>voteSmartID</key>
+		<integer>120678</integer>
+		<key>zip</key>
+		<integer>44281</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Garrison</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$146,657</string>
+		<key>name</key>
+		<string>Thomas Massie</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/132068.jpg</string>
+		<key>state</key>
+		<string>KY</string>
+		<key>street</key>
+		<string>524 Willis Branch Road</string>
+		<key>voteSmartID</key>
+		<integer>132068</integer>
+		<key>zip</key>
+		<integer>41141</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Indianapolis</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$394,951</string>
+		<key>name</key>
+		<string>Andy Harris</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/130802.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>5401 West Washington Street</string>
+		<key>voteSmartID</key>
+		<integer>130802</integer>
+		<key>zip</key>
+		<integer>46241</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Farmington</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$7,000</string>
+		<key>name</key>
+		<string>Chris Stewart</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135930.jpg</string>
+		<key>state</key>
+		<string>UT</string>
+		<key>street</key>
+		<string>542 Lakeview Way</string>
+		<key>voteSmartID</key>
+		<integer>135930</integer>
+		<key>zip</key>
+		<integer>84025</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Morristown</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,000</string>
+		<key>name</key>
+		<string>Rodney Frelinghuysen</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/22177.jpg</string>
+		<key>state</key>
+		<string>NJ</string>
+		<key>street</key>
+		<string>559 James Street</string>
+		<key>voteSmartID</key>
+		<integer>22177</integer>
+		<key>zip</key>
+		<string>07960</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>IDAHO FALLS</string>
+		<key>currentFunding</key>
+		<string>$339,238</string>
+		<key>lifetimeFunding</key>
+		<string>$339,238</string>
+		<key>name</key>
+		<string>Bryan Smith</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/146189.jpg</string>
+		<key>state</key>
+		<string>ID</string>
+		<key>street</key>
+		<string>580 HONEY CREEK</string>
+		<key>voteSmartID</key>
+		<integer>146189</integer>
+		<key>zip</key>
+		<integer>83404</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cohasset</string>
+		<key>currentFunding</key>
+		<string>$2,750</string>
+		<key>lifetimeFunding</key>
+		<string>$2,750</string>
+		<key>name</key>
+		<string>Gabriel Gomez</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/144464.jpg</string>
+		<key>state</key>
+		<string>MA</string>
+		<key>street</key>
+		<string>59 HIGHLAND AVENUE</string>
+		<key>voteSmartID</key>
+		<integer>144464</integer>
+		<key>zip</key>
+		<string>02025</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Topeka</string>
+		<key>currentFunding</key>
+		<string>$15,000</string>
+		<key>lifetimeFunding</key>
+		<string>$45,500</string>
+		<key>name</key>
+		<string>Lynn Jenkins</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/18594.jpg</string>
+		<key>state</key>
+		<string>KS</string>
+		<key>street</key>
+		<string>5940 Southwest Clarion Lane</string>
+		<key>voteSmartID</key>
+		<integer>18594</integer>
+		<key>zip</key>
+		<integer>66610</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Elkhart</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$28,400</string>
+		<key>name</key>
+		<string>Jackie Walorski</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/34205.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>59555 CR 3</string>
+		<key>voteSmartID</key>
+		<integer>34205</integer>
+		<key>zip</key>
+		<integer>46517</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Midland</string>
+		<key>currentFunding</key>
+		<string>$8,000</string>
+		<key>lifetimeFunding</key>
+		<string>$41,500</string>
+		<key>name</key>
+		<string>Mike Conaway</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/49935.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>6 Desta Drive Suite 2000</string>
+		<key>voteSmartID</key>
+		<integer>49935</integer>
+		<key>zip</key>
+		<integer>79705</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Glen Allen</string>
+		<key>currentFunding</key>
+		<string>$17,400</string>
+		<key>lifetimeFunding</key>
+		<string>$84,530</string>
+		<key>name</key>
+		<string>Eric Cantor</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/5121.jpg</string>
+		<key>state</key>
+		<string>VA</string>
+		<key>street</key>
+		<string>6004 OXBURY COURT</string>
+		<key>voteSmartID</key>
+		<integer>5121</integer>
+		<key>zip</key>
+		<integer>23059</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Fowler</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$30,900</string>
+		<key>name</key>
+		<string>Tim Huelskamp</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/12571.jpg</string>
+		<key>state</key>
+		<string>KS</string>
+		<key>street</key>
+		<string>601 Church</string>
+		<key>voteSmartID</key>
+		<integer>12571</integer>
+		<key>zip</key>
+		<integer>67844</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Howard</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$15,000</string>
+		<key>name</key>
+		<string>Glenn Thompson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/24046.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>602 Walnut Street</string>
+		<key>voteSmartID</key>
+		<integer>24046</integer>
+		<key>zip</key>
+		<integer>16841</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Brentwood</string>
+		<key>currentFunding</key>
+		<string>$8,000</string>
+		<key>lifetimeFunding</key>
+		<string>$53,880</string>
+		<key>name</key>
+		<string>Marsha Blackburn</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/25186.jpg</string>
+		<key>state</key>
+		<string>TN</string>
+		<key>street</key>
+		<string>6103 Murray Lane</string>
+		<key>voteSmartID</key>
+		<integer>25186</integer>
+		<key>zip</key>
+		<integer>37027</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Dallas</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$77,645</string>
+		<key>name</key>
+		<string>Pete Sessions</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/288.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>6306 Greenville Avenue</string>
+		<key>voteSmartID</key>
+		<integer>288</integer>
+		<key>zip</key>
+		<integer>75206</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Galena</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$10,032</string>
+		<key>name</key>
+		<string>Patrick J Tiberi</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/8404.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>6830 Mahogany Drive</string>
+		<key>voteSmartID</key>
+		<integer>8404</integer>
+		<key>zip</key>
+		<integer>43021</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Janesville</string>
+		<key>currentFunding</key>
+		<string>$20,400</string>
+		<key>lifetimeFunding</key>
+		<string>$91,293</string>
+		<key>name</key>
+		<string>Paul Ryan</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26344.jpg</string>
+		<key>state</key>
+		<string>WI</string>
+		<key>street</key>
+		<string>700 Saint Lawrence Avenue</string>
+		<key>voteSmartID</key>
+		<integer>26344</integer>
+		<key>zip</key>
+		<integer>53545</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Grand Rapids</string>
+		<key>currentFunding</key>
+		<string>$20,000</string>
+		<key>lifetimeFunding</key>
+		<string>$20,000</string>
+		<key>name</key>
+		<string>Terri Lynn Land</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/38315.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>725 Lake Michigan Drive NW</string>
+		<key>voteSmartID</key>
+		<integer>38315</integer>
+		<key>zip</key>
+		<integer>49504</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Charlotte</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$17,500</string>
+		<key>name</key>
+		<string>Robert Pittenger</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/41272.jpg</string>
+		<key>state</key>
+		<string>NC</string>
+		<key>street</key>
+		<string>7330 Baltusrol Lane</string>
+		<key>voteSmartID</key>
+		<integer>41272</integer>
+		<key>zip</key>
+		<integer>28210</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>West Chester</string>
+		<key>currentFunding</key>
+		<string>$26,200</string>
+		<key>lifetimeFunding</key>
+		<string>$66,200</string>
+		<key>name</key>
+		<string>John Boehner</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/27015.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>7371 Charter Cup Lane</string>
+		<key>voteSmartID</key>
+		<integer>27015</integer>
+		<key>zip</key>
+		<integer>45069</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bloomington</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$77,750</string>
+		<key>name</key>
+		<string>Todd Young</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/120345.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>771 Leisure Lane</string>
+		<key>voteSmartID</key>
+		<integer>120345</integer>
+		<key>zip</key>
+		<integer>47401</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Crystal Falls</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$30,000</string>
+		<key>name</key>
+		<string>Dan Benishek</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/123056.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>802 Pentoga Trail</string>
+		<key>voteSmartID</key>
+		<integer>123056</integer>
+		<key>zip</key>
+		<integer>49920</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Boise</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$15,000</string>
+		<key>name</key>
+		<string>Mike Simpson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/2917.jpg</string>
+		<key>state</key>
+		<string>ID</string>
+		<key>street</key>
+		<string>802 West Bannock, LP104</string>
+		<key>voteSmartID</key>
+		<integer>2917</integer>
+		<key>zip</key>
+		<integer>83702</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Chatham</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$2,000</string>
+		<key>name</key>
+		<string>John Chapman</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/147055.jpg</string>
+		<key>state</key>
+		<string>MA</string>
+		<key>street</key>
+		<string>81 Holway Street</string>
+		<key>voteSmartID</key>
+		<integer>147055</integer>
+		<key>zip</key>
+		<string>02633</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Levittown</string>
+		<key>currentFunding</key>
+		<string>$2,750</string>
+		<key>lifetimeFunding</key>
+		<string>$22,000</string>
+		<key>name</key>
+		<string>Michael G Fitzpatrick</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/46971.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>81 Silverspruce Road</string>
+		<key>voteSmartID</key>
+		<integer>46971</integer>
+		<key>zip</key>
+		<integer>19056</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Austin</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$742,782</string>
+		<key>name</key>
+		<string>Ted Cruz</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135705.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>815 A Brazos Post Mail Box 550</string>
+		<key>voteSmartID</key>
+		<integer>135705</integer>
+		<key>zip</key>
+		<integer>78701</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Austin</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$40,250</string>
+		<key>name</key>
+		<string>Michael McCaul</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/49210.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>815-A Brazos Street Box 230</string>
+		<key>voteSmartID</key>
+		<integer>49210</integer>
+		<key>zip</key>
+		<integer>78701</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Gallatin</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$17,750</string>
+		<key>name</key>
+		<string>Diane Black</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/25292.jpg</string>
+		<key>state</key>
+		<string>TN</string>
+		<key>street</key>
+		<string>819 Plantation Boulevard</string>
+		<key>voteSmartID</key>
+		<integer>25292</integer>
+		<key>zip</key>
+		<integer>37066</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lorton</string>
+		<key>currentFunding</key>
+		<string>$5,350</string>
+		<key>lifetimeFunding</key>
+		<string>$5,350</string>
+		<key>name</key>
+		<string>Ed Gillespie</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/147792.jpg</string>
+		<key>state</key>
+		<string>VA</string>
+		<key>street</key>
+		<string>8198 Terminal Road</string>
+		<key>voteSmartID</key>
+		<integer>147792</integer>
+		<key>zip</key>
+		<integer>22079</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Terrace Park</string>
+		<key>currentFunding</key>
+		<string>$3,600</string>
+		<key>lifetimeFunding</key>
+		<string>$36,500</string>
+		<key>name</key>
+		<string>Rob Portman</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/27008.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>825 MIAMI AVENUE</string>
+		<key>voteSmartID</key>
+		<integer>27008</integer>
+		<key>zip</key>
+		<integer>45174</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Sugar Land</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$54,850</string>
+		<key>name</key>
+		<string>Pete Olson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/102008.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>8410 Highway 90 A Suite 160</string>
+		<key>voteSmartID</key>
+		<integer>102008</integer>
+		<key>zip</key>
+		<integer>77478</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Ooltewah</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$10,000</string>
+		<key>name</key>
+		<string>Chuck Fleischmann</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/123456.jpg</string>
+		<key>state</key>
+		<string>TN</string>
+		<key>street</key>
+		<string>8714 Rambling Rose Drive</string>
+		<key>voteSmartID</key>
+		<integer>123456</integer>
+		<key>zip</key>
+		<integer>37363</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Scottsdale</string>
+		<key>currentFunding</key>
+		<string>$7,000</string>
+		<key>lifetimeFunding</key>
+		<string>$28,369</string>
+		<key>name</key>
+		<string>David Schweikert</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/106387.jpg</string>
+		<key>state</key>
+		<string>AZ</string>
+		<key>street</key>
+		<string>8776 East Shea Boulevard, #B3A-626</string>
+		<key>voteSmartID</key>
+		<integer>106387</integer>
+		<key>zip</key>
+		<integer>85260</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Indianapolis</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$15,000</string>
+		<key>name</key>
+		<string>Todd Rokita</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/34167.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>8823 Woodacre Lane</string>
+		<key>voteSmartID</key>
+		<integer>34167</integer>
+		<key>zip</key>
+		<integer>46234</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Kennett Square</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$16,200</string>
+		<key>name</key>
+		<string>Joe Pitts</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/265.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>905 Mitchell Farm Lane</string>
+		<key>voteSmartID</key>
+		<integer>265</integer>
+		<key>zip</key>
+		<integer>19348</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>West Jordan</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$39,000</string>
+		<key>name</key>
+		<string>Jim Matheson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/50722.jpg</string>
+		<key>state</key>
+		<string>UT</string>
+		<key>street</key>
+		<string>9067 South 1300 West 101</string>
+		<key>voteSmartID</key>
+		<integer>50722</integer>
+		<key>zip</key>
+		<integer>84088</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Dodge City</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$121,950</string>
+		<key>name</key>
+		<string>Pat Roberts</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26866.jpg</string>
+		<key>state</key>
+		<string>KS</string>
+		<key>street</key>
+		<string>909 Club View Drive</string>
+		<key>voteSmartID</key>
+		<integer>26866</integer>
+		<key>zip</key>
+		<integer>67801</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Virginia Beach</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$19,500</string>
+		<key>name</key>
+		<string>Scott Rigell</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/121807.jpg</string>
+		<key>state</key>
+		<string>VA</string>
+		<key>street</key>
+		<string>915 First Colonial Road Suite 100</string>
+		<key>voteSmartID</key>
+		<integer>121807</integer>
+		<key>zip</key>
+		<integer>23454</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Alpine</string>
+		<key>currentFunding</key>
+		<string>$5,100</string>
+		<key>lifetimeFunding</key>
+		<string>$5,100</string>
+		<key>name</key>
+		<string>Mike Lee</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/132452.jpg</string>
+		<key>state</key>
+		<string>UT</string>
+		<key>street</key>
+		<string>917 QUAIL HOLLOW CIRCLE</string>
+		<key>voteSmartID</key>
+		<integer>132452</integer>
+		<key>zip</key>
+		<integer>84004</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lafayette</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$32,500</string>
+		<key>name</key>
+		<string>Charles W Jr Boustany</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/35514.jpg</string>
+		<key>state</key>
+		<string>LA</string>
+		<key>street</key>
+		<string>922 Kaliste Saloom Road</string>
+		<key>voteSmartID</key>
+		<integer>35514</integer>
+		<key>zip</key>
+		<integer>70508</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>San Diego</string>
+		<key>currentFunding</key>
+		<string>$5,500</string>
+		<key>lifetimeFunding</key>
+		<string>$5,500</string>
+		<key>name</key>
+		<string>Carl Demaio</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/112062.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>9625 Black Mountain Road, Suite 205</string>
+		<key>voteSmartID</key>
+		<integer>112062</integer>
+		<key>zip</key>
+		<integer>92126</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Novelty</string>
+		<key>currentFunding</key>
+		<string>$11,000</string>
+		<key>lifetimeFunding</key>
+		<string>$11,000</string>
+		<key>name</key>
+		<string>David P Joyce</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/143052.jpg</string>
+		<key>state</key>
+		<string>OH</string>
+		<key>street</key>
+		<string>9652 Music Street</string>
+		<key>voteSmartID</key>
+		<integer>143052</integer>
+		<key>zip</key>
+		<integer>44072</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Woodstock</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Barry Loudermilk</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/31618.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>9898 Highway 92</string>
+		<key>voteSmartID</key>
+		<integer>31618</integer>
+		<key>zip</key>
+		<integer>30188</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Laurel</string>
+		<key>currentFunding</key>
+		<string>$274,500</string>
+		<key>lifetimeFunding</key>
+		<string>$274,500</string>
+		<key>name</key>
+		<string>Chris McDaniel</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/69837.jpg</string>
+		<key>state</key>
+		<string>MS</string>
+		<key>street</key>
+		<string>Friends of Chris McDaniel Post Office Box 125</string>
+		<key>voteSmartID</key>
+		<integer>69837</integer>
+		<key>zip</key>
+		<integer>39441</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lexington</string>
+		<key>currentFunding</key>
+		<string>$5,200</string>
+		<key>lifetimeFunding</key>
+		<string>$132,465</string>
+		<key>name</key>
+		<string>Rand Paul</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/117285.jpg</string>
+		<key>state</key>
+		<string>KY</string>
+		<key>street</key>
+		<string>771 Corporate Dr, Ste 105</string>
+		<key>voteSmartID</key>
+		<integer>117285</integer>
+		<key>zip</key>
+		<integer>41072</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Menomonee Falls</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$15,550</string>
+		<key>name</key>
+		<string>F James Jr Sensenbrenner</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/27142.jpg</string>
+		<key>state</key>
+		<string>WI</string>
+		<key>street</key>
+		<string>North 76 West 14726 Northpoint Drive</string>
+		<key>voteSmartID</key>
+		<integer>27142</integer>
+		<key>zip</key>
+		<integer>53051</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Sherwood</string>
+		<key>currentFunding</key>
+		<string>$11,000</string>
+		<key>lifetimeFunding</key>
+		<string>$28,250</string>
+		<key>name</key>
+		<string>Reid Ribble</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/126240.jpg</string>
+		<key>state</key>
+		<string>WI</string>
+		<key>street</key>
+		<string>North 7611 Lower Cliff Road Box 10</string>
+		<key>voteSmartID</key>
+		<integer>126240</integer>
+		<key>zip</key>
+		<integer>54169</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hauppauge</string>
+		<key>currentFunding</key>
+		<string>$7,700</string>
+		<key>lifetimeFunding</key>
+		<string>$7,700</string>
+		<key>name</key>
+		<string>Lee Zeldin</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/110252.jpg</string>
+		<key>state</key>
+		<string>NY</string>
+		<key>street</key>
+		<string>NYS Office Building</string>
+		<key>voteSmartID</key>
+		<integer>110252</integer>
+		<key>zip</key>
+		<integer>11788</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hauppauge</string>
+		<key>currentFunding</key>
+		<string>$8,150</string>
+		<key>lifetimeFunding</key>
+		<string>$8,150</string>
+		<key>name</key>
+		<string>Matt Schultz</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/73695.jpg</string>
+		<key>state</key>
+		<string>NY</string>
+		<key>street</key>
+		<string>NYS Office Building</string>
+		<key>voteSmartID</key>
+		<integer>73695</integer>
+		<key>zip</key>
+		<integer>11788</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bakersfield</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$23,000</string>
+		<key>name</key>
+		<string>Kevin McCarthy</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/147442.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>PO BOX 12667</string>
+		<key>voteSmartID</key>
+		<integer>147442</integer>
+		<key>zip</key>
+		<integer>93389</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Oklahoma City</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,000</string>
+		<key>name</key>
+		<string>T W Shannon</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/65366.jpg</string>
+		<key>state</key>
+		<string>OK</string>
+		<key>street</key>
+		<string>PO BOX 18182</string>
+		<key>voteSmartID</key>
+		<integer>65366</integer>
+		<key>zip</key>
+		<integer>73154</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Colorado Springs</string>
+		<key>currentFunding</key>
+		<string>$210</string>
+		<key>lifetimeFunding</key>
+		<string>$210</string>
+		<key>name</key>
+		<string>Owen Hill</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/125362.jpg</string>
+		<key>state</key>
+		<string>CO</string>
+		<key>street</key>
+		<string>PO BOX 1970</string>
+		<key>voteSmartID</key>
+		<integer>125362</integer>
+		<key>zip</key>
+		<integer>80901</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bend</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Jason Conger</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/117344.jpg</string>
+		<key>state</key>
+		<string>OR</string>
+		<key>street</key>
+		<string>PO BOX 2058</string>
+		<key>voteSmartID</key>
+		<integer>117344</integer>
+		<key>zip</key>
+		<integer>97709</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Pasco</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$6,500</string>
+		<key>name</key>
+		<string>Doc Hastings</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/22318.jpg</string>
+		<key>state</key>
+		<string>WA</string>
+		<key>street</key>
+		<string>PO BOX 2926</string>
+		<key>voteSmartID</key>
+		<integer>22318</integer>
+		<key>zip</key>
+		<integer>99302</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Folsom</string>
+		<key>currentFunding</key>
+		<string>$11,650</string>
+		<key>lifetimeFunding</key>
+		<string>$11,650</string>
+		<key>name</key>
+		<string>Igor A Birman</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/145984.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>PO BOX 647</string>
+		<key>voteSmartID</key>
+		<integer>145984</integer>
+		<key>zip</key>
+		<integer>95763</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>The Woodlands</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$29,250</string>
+		<key>name</key>
+		<string>Kevin Brady</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/143111.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>PO BOX 8277</string>
+		<key>voteSmartID</key>
+		<integer>143111</integer>
+		<key>zip</key>
+		<integer>77387</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Columbus</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$11,000</string>
+		<key>name</key>
+		<string>Sanford Bishop</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26817.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>Post Office 909</string>
+		<key>voteSmartID</key>
+		<integer>26817</integer>
+		<key>zip</key>
+		<integer>31902</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Augusta</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$28,250</string>
+		<key>name</key>
+		<string>John Barrow</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/31780.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>Post Office Box 1001</string>
+		<key>voteSmartID</key>
+		<integer>31780</integer>
+		<key>zip</key>
+		<integer>30903</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hood River</string>
+		<key>currentFunding</key>
+		<string>$11,000</string>
+		<key>lifetimeFunding</key>
+		<string>$48,500</string>
+		<key>name</key>
+		<string>Greg Walden</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/2979.jpg</string>
+		<key>state</key>
+		<string>OR</string>
+		<key>street</key>
+		<string>Post Office Box 1091</string>
+		<key>voteSmartID</key>
+		<integer>2979</integer>
+		<key>zip</key>
+		<integer>97031</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bangor</string>
+		<key>currentFunding</key>
+		<string>$7,000</string>
+		<key>lifetimeFunding</key>
+		<string>$29,650</string>
+		<key>name</key>
+		<string>Susan M Collins</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/379.jpg</string>
+		<key>state</key>
+		<string>ME</string>
+		<key>street</key>
+		<string>Post Office Box 1096</string>
+		<key>voteSmartID</key>
+		<integer>379</integer>
+		<key>zip</key>
+		<string>04402</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Haleyville</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$14,000</string>
+		<key>name</key>
+		<string>Robert B Aderholt</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/441.jpg</string>
+		<key>state</key>
+		<string>AL</string>
+		<key>street</key>
+		<string>Post Office Box 1158</string>
+		<key>voteSmartID</key>
+		<integer>441</integer>
+		<key>zip</key>
+		<integer>35565</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Rocklin</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$3,500</string>
+		<key>name</key>
+		<string>Tom McClintock</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/9715.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>Post Office Box 1198</string>
+		<key>voteSmartID</key>
+		<integer>9715</integer>
+		<key>zip</key>
+		<integer>95677</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Highlands</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$5,500</string>
+		<key>name</key>
+		<string>Mark R Meadows</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/136459.jpg</string>
+		<key>state</key>
+		<string>NC</string>
+		<key>street</key>
+		<string>Post Office Box 1214</string>
+		<key>voteSmartID</key>
+		<integer>136459</integer>
+		<key>zip</key>
+		<integer>28741</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Mesa</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$8,500</string>
+		<key>name</key>
+		<string>Matt Salmon</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/22184.jpg</string>
+		<key>state</key>
+		<string>AZ</string>
+		<key>street</key>
+		<string>Post Office Box 1290</string>
+		<key>voteSmartID</key>
+		<integer>22184</integer>
+		<key>zip</key>
+		<integer>85211</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Gainesville</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$7,000</string>
+		<key>name</key>
+		<string>Doug Collins</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/67851.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>Post Office Box 1295</string>
+		<key>voteSmartID</key>
+		<integer>67851</integer>
+		<key>zip</key>
+		<integer>30503</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Austin</string>
+		<key>currentFunding</key>
+		<string>$22,900</string>
+		<key>lifetimeFunding</key>
+		<string>$71,299</string>
+		<key>name</key>
+		<string>John Cornyn</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/15375.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>Post Office Box 13026</string>
+		<key>voteSmartID</key>
+		<integer>15375</integer>
+		<key>zip</key>
+		<integer>78711</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Jackson</string>
+		<key>currentFunding</key>
+		<string>$17,700</string>
+		<key>lifetimeFunding</key>
+		<string>$451,195</string>
+		<key>name</key>
+		<string>Tim Walberg</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/8618.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>Post Office Box 1362</string>
+		<key>voteSmartID</key>
+		<integer>8618</integer>
+		<key>zip</key>
+		<integer>49204</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Spokane</string>
+		<key>currentFunding</key>
+		<string>$1,250</string>
+		<key>lifetimeFunding</key>
+		<string>$112,925</string>
+		<key>name</key>
+		<string>Cathy McMorris Rodgers</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/3217.jpg</string>
+		<key>state</key>
+		<string>WA</string>
+		<key>street</key>
+		<string>Post Office Box 137</string>
+		<key>voteSmartID</key>
+		<integer>3217</integer>
+		<key>zip</key>
+		<integer>99210</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hickory</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$22,847</string>
+		<key>name</key>
+		<string>Patrick McHenry</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/21031.jpg</string>
+		<key>state</key>
+		<string>NC</string>
+		<key>street</key>
+		<string>Post Office Box 1406</string>
+		<key>voteSmartID</key>
+		<integer>21031</integer>
+		<key>zip</key>
+		<integer>28603</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Austin</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Roger Williams</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/50112.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>Post Office Box 1504</string>
+		<key>voteSmartID</key>
+		<integer>50112</integer>
+		<key>zip</key>
+		<integer>78767</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>El Cajon</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$2,500</string>
+		<key>name</key>
+		<string>Duncan D Hunter</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/104308.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>Post Office Box 1545</string>
+		<key>voteSmartID</key>
+		<integer>104308</integer>
+		<key>zip</key>
+		<integer>92022</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Brooksville</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$17,500</string>
+		<key>name</key>
+		<string>Richard Nugent</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/124333.jpg</string>
+		<key>state</key>
+		<string>FL</string>
+		<key>street</key>
+		<string>Post Office Box 15668</string>
+		<key>voteSmartID</key>
+		<integer>124333</integer>
+		<key>zip</key>
+		<integer>34604</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Cortez</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$21,000</string>
+		<key>name</key>
+		<string>Scott Tipton</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/65403.jpg</string>
+		<key>state</key>
+		<string>CO</string>
+		<key>street</key>
+		<string>Post Office Box 1582</string>
+		<key>voteSmartID</key>
+		<integer>65403</integer>
+		<key>zip</key>
+		<integer>81321</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Helena</string>
+		<key>currentFunding</key>
+		<string>$41,400</string>
+		<key>lifetimeFunding</key>
+		<string>$51,400</string>
+		<key>name</key>
+		<string>Steven Daines</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135720.jpg</string>
+		<key>state</key>
+		<string>MT</string>
+		<key>street</key>
+		<string>Post Office Box 1598</string>
+		<key>voteSmartID</key>
+		<integer>135720</integer>
+		<key>zip</key>
+		<integer>59624</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Ridgefield</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$13,000</string>
+		<key>name</key>
+		<string>Jaime Herrera Beutler</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/101907.jpg</string>
+		<key>state</key>
+		<string>WA</string>
+		<key>street</key>
+		<string>Post Office Box 1614</string>
+		<key>voteSmartID</key>
+		<integer>101907</integer>
+		<key>zip</key>
+		<integer>98642</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lynn Haven</string>
+		<key>currentFunding</key>
+		<string>$15,200</string>
+		<key>lifetimeFunding</key>
+		<string>$25,200</string>
+		<key>name</key>
+		<string>Steve Southerland</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/124329.jpg</string>
+		<key>state</key>
+		<string>FL</string>
+		<key>street</key>
+		<string>Post Office Box 1692</string>
+		<key>voteSmartID</key>
+		<integer>124329</integer>
+		<key>zip</key>
+		<integer>32444</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Columbia</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$28,500</string>
+		<key>name</key>
+		<string>Lindsey Graham</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/21992.jpg</string>
+		<key>state</key>
+		<string>SC</string>
+		<key>street</key>
+		<string>Post Office Box 1801</string>
+		<key>voteSmartID</key>
+		<integer>21992</integer>
+		<key>zip</key>
+		<integer>29202</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Shelby Township</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$5,025</string>
+		<key>name</key>
+		<string>Candice S Miller</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/2062.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>Post Office Box 182152</string>
+		<key>voteSmartID</key>
+		<integer>2062</integer>
+		<key>zip</key>
+		<integer>48318</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Modesto</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$7,000</string>
+		<key>name</key>
+		<string>Jeff Denham</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/28769.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>Post Office Box 1830</string>
+		<key>voteSmartID</key>
+		<integer>28769</integer>
+		<key>zip</key>
+		<integer>95353</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Tucson</string>
+		<key>currentFunding</key>
+		<string>$15,200</string>
+		<key>lifetimeFunding</key>
+		<string>$15,700</string>
+		<key>name</key>
+		<string>Martha McSally</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/137299.jpg</string>
+		<key>state</key>
+		<string>AZ</string>
+		<key>street</key>
+		<string>Post Office Box 19128</string>
+		<key>voteSmartID</key>
+		<integer>137299</integer>
+		<key>zip</key>
+		<integer>85731</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lancaster</string>
+		<key>currentFunding</key>
+		<string>$8,000</string>
+		<key>lifetimeFunding</key>
+		<string>$113,080</string>
+		<key>name</key>
+		<string>Mick Mulvaney</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/60348.jpg</string>
+		<key>state</key>
+		<string>SC</string>
+		<key>street</key>
+		<string>Post Office Box 1975</string>
+		<key>voteSmartID</key>
+		<integer>60348</integer>
+		<key>zip</key>
+		<integer>29721</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lexington</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$16,000</string>
+		<key>name</key>
+		<string>Andy Barr</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/117290.jpg</string>
+		<key>state</key>
+		<string>KY</string>
+		<key>street</key>
+		<string>Post Office Box 2059</string>
+		<key>voteSmartID</key>
+		<integer>117290</integer>
+		<key>zip</key>
+		<integer>40588</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lees Summit</string>
+		<key>currentFunding</key>
+		<string>$250</string>
+		<key>lifetimeFunding</key>
+		<string>$250</string>
+		<key>name</key>
+		<string>Jacob Turk</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/65309.jpg</string>
+		<key>state</key>
+		<string>MO</string>
+		<key>street</key>
+		<string>Post Office Box 2097</string>
+		<key>voteSmartID</key>
+		<integer>65309</integer>
+		<key>zip</key>
+		<integer>64063</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Denton</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$51,500</string>
+		<key>name</key>
+		<string>Michael Burgess</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/50120.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>Post Office Box 2334</string>
+		<key>voteSmartID</key>
+		<integer>50120</integer>
+		<key>zip</key>
+		<integer>76202</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Newburgh</string>
+		<key>currentFunding</key>
+		<string>$1,500</string>
+		<key>lifetimeFunding</key>
+		<string>$6,500</string>
+		<key>name</key>
+		<string>Larry Bucshon</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/120335.jpg</string>
+		<key>state</key>
+		<string>IN</string>
+		<key>street</key>
+		<string>Post Office Box 250</string>
+		<key>voteSmartID</key>
+		<integer>120335</integer>
+		<key>zip</key>
+		<integer>47629</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Zeeland</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$12,000</string>
+		<key>name</key>
+		<string>Bill Huizenga</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/38351.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>Post Office Box 254</string>
+		<key>voteSmartID</key>
+		<integer>38351</integer>
+		<key>zip</key>
+		<integer>49464</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Riverton</string>
+		<key>currentFunding</key>
+		<string>$10,251</string>
+		<key>lifetimeFunding</key>
+		<string>$12,751</string>
+		<key>name</key>
+		<string>Mia Love</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135957.jpg</string>
+		<key>state</key>
+		<string>UT</string>
+		<key>street</key>
+		<string>Post Office Box 255</string>
+		<key>voteSmartID</key>
+		<integer>135957</integer>
+		<key>zip</key>
+		<integer>84065</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Detroit Lakes</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$46,500</string>
+		<key>name</key>
+		<string>Collin Peterson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26926.jpg</string>
+		<key>state</key>
+		<string>MN</string>
+		<key>street</key>
+		<string>Post Office Box 265</string>
+		<key>voteSmartID</key>
+		<integer>26926</integer>
+		<key>zip</key>
+		<integer>56502</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Overland Park</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$39,600</string>
+		<key>name</key>
+		<string>Kevin Yoder</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/34433.jpg</string>
+		<key>state</key>
+		<string>KS</string>
+		<key>street</key>
+		<string>Post Office Box 26742</string>
+		<key>voteSmartID</key>
+		<integer>34433</integer>
+		<key>zip</key>
+		<integer>66225</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Dublin</string>
+		<key>currentFunding</key>
+		<string>$1,000</string>
+		<key>lifetimeFunding</key>
+		<string>$1,000</string>
+		<key>name</key>
+		<string>Eric Swalwell</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/129529.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>Post Office Box 2847</string>
+		<key>voteSmartID</key>
+		<integer>129529</integer>
+		<key>zip</key>
+		<integer>94568</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hamilton</string>
+		<key>currentFunding</key>
+		<string>$3,225</string>
+		<key>lifetimeFunding</key>
+		<string>$59,700</string>
+		<key>name</key>
+		<string>Chris Smith</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26952.jpg</string>
+		<key>state</key>
+		<string>NJ</string>
+		<key>street</key>
+		<string>Post Office Box 3184</string>
+		<key>voteSmartID</key>
+		<integer>26952</integer>
+		<key>zip</key>
+		<string>08619</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Fullerton</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$7,500</string>
+		<key>name</key>
+		<string>Ed Royce</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26772.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>Post Office Box 3249</string>
+		<key>voteSmartID</key>
+		<integer>26772</integer>
+		<key>zip</key>
+		<integer>92834</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Spartanburg</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$22,500</string>
+		<key>name</key>
+		<string>Trey Gowdy</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/121782.jpg</string>
+		<key>state</key>
+		<string>SC</string>
+		<key>street</key>
+		<string>Post Office Box 3324</string>
+		<key>voteSmartID</key>
+		<integer>121782</integer>
+		<key>zip</key>
+		<integer>29304</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Calhoun</string>
+		<key>currentFunding</key>
+		<string>$8,000</string>
+		<key>lifetimeFunding</key>
+		<string>$159,750</string>
+		<key>name</key>
+		<string>Tom Graves</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/31969.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>Post Office Box 335</string>
+		<key>voteSmartID</key>
+		<integer>31969</integer>
+		<key>zip</key>
+		<integer>30703</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Christiansburg</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$25,000</string>
+		<key>name</key>
+		<string>Morgan Griffith</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/5148.jpg</string>
+		<key>state</key>
+		<string>VA</string>
+		<key>street</key>
+		<string>Post Office Box 361</string>
+		<key>voteSmartID</key>
+		<integer>5148</integer>
+		<key>zip</key>
+		<integer>24068</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Bismarck</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$13,025</string>
+		<key>name</key>
+		<string>Kevin Cramer</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/444.jpg</string>
+		<key>state</key>
+		<string>ND</string>
+		<key>street</key>
+		<string>Post Office Box 396</string>
+		<key>voteSmartID</key>
+		<integer>444</integer>
+		<key>zip</key>
+		<integer>58502</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Ponte Vedra Beach</string>
+		<key>currentFunding</key>
+		<string>$8,000</string>
+		<key>lifetimeFunding</key>
+		<string>$18,000</string>
+		<key>name</key>
+		<string>Ron DeSantis</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/137630.jpg</string>
+		<key>state</key>
+		<string>FL</string>
+		<key>street</key>
+		<string>Post Office Box 405</string>
+		<key>voteSmartID</key>
+		<integer>137630</integer>
+		<key>zip</key>
+		<integer>32004</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Houston</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$48,500</string>
+		<key>name</key>
+		<string>John Culberson</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/5488.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>Post Office Box 41964</string>
+		<key>voteSmartID</key>
+		<integer>5488</integer>
+		<key>zip</key>
+		<integer>77241</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Roswell</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$43,000</string>
+		<key>name</key>
+		<string>Tom Price</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/11853.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>Post Office Box 425</string>
+		<key>voteSmartID</key>
+		<integer>11853</integer>
+		<key>zip</key>
+		<integer>30077</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Montgomery</string>
+		<key>currentFunding</key>
+		<string>$7,500</string>
+		<key>lifetimeFunding</key>
+		<string>$27,200</string>
+		<key>name</key>
+		<string>Jeff Sessions</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/443.jpg</string>
+		<key>state</key>
+		<string>AL</string>
+		<key>street</key>
+		<string>Post Office Box 4278</string>
+		<key>voteSmartID</key>
+		<integer>443</integer>
+		<key>zip</key>
+		<integer>36103</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Eden Prairie</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$38,550</string>
+		<key>name</key>
+		<string>Erik Paulsen</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/3833.jpg</string>
+		<key>state</key>
+		<string>MN</string>
+		<key>street</key>
+		<string>Post Office Box 44369</string>
+		<key>voteSmartID</key>
+		<integer>3833</integer>
+		<key>zip</key>
+		<integer>55344</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Saint Joseph</string>
+		<key>currentFunding</key>
+		<string>$11,000</string>
+		<key>lifetimeFunding</key>
+		<string>$41,500</string>
+		<key>name</key>
+		<string>Fred Upton</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/26906.jpg</string>
+		<key>state</key>
+		<string>MI</string>
+		<key>street</key>
+		<string>Post Office Box 490</string>
+		<key>voteSmartID</key>
+		<integer>26906</integer>
+		<key>zip</key>
+		<integer>49085</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Somerset</string>
+		<key>currentFunding</key>
+		<string>$500</string>
+		<key>lifetimeFunding</key>
+		<string>$500</string>
+		<key>name</key>
+		<string>Alieta Eck</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/144699.jpg</string>
+		<key>state</key>
+		<string>NJ</string>
+		<key>street</key>
+		<string>Post Office Box 5070</string>
+		<key>voteSmartID</key>
+		<integer>144699</integer>
+		<key>zip</key>
+		<string>08875</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Harrisonville</string>
+		<key>currentFunding</key>
+		<string>$6,000</string>
+		<key>lifetimeFunding</key>
+		<string>$16,000</string>
+		<key>name</key>
+		<string>Vicky Hartzler</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/8783.jpg</string>
+		<key>state</key>
+		<string>MO</string>
+		<key>street</key>
+		<string>Post Office Box 531</string>
+		<key>voteSmartID</key>
+		<integer>8783</integer>
+		<key>zip</key>
+		<integer>64701</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Pearl</string>
+		<key>currentFunding</key>
+		<string>$2,500</string>
+		<key>lifetimeFunding</key>
+		<string>$5,000</string>
+		<key>name</key>
+		<string>Gregg Harper</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/101985.jpg</string>
+		<key>state</key>
+		<string>MS</string>
+		<key>street</key>
+		<string>Post Office Box 54344</string>
+		<key>voteSmartID</key>
+		<integer>101985</integer>
+		<key>zip</key>
+		<integer>39288</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>San Antonio</string>
+		<key>currentFunding</key>
+		<string>$5,500</string>
+		<key>lifetimeFunding</key>
+		<string>$36,500</string>
+		<key>name</key>
+		<string>Lamar Smith</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/27097.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>Post Office Box 6155</string>
+		<key>voteSmartID</key>
+		<integer>27097</integer>
+		<key>zip</key>
+		<integer>78209</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Gulfport</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$15,500</string>
+		<key>name</key>
+		<string>Steven Palazzo</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/69521.jpg</string>
+		<key>state</key>
+		<string>MS</string>
+		<key>street</key>
+		<string>Post Office Box 6217</string>
+		<key>voteSmartID</key>
+		<integer>69521</integer>
+		<key>zip</key>
+		<integer>39506</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Morgantown</string>
+		<key>currentFunding</key>
+		<string>$4,000</string>
+		<key>lifetimeFunding</key>
+		<string>$14,000</string>
+		<key>name</key>
+		<string>David McKinley</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/117396.jpg</string>
+		<key>state</key>
+		<string>WV</string>
+		<key>street</key>
+		<string>Post Office Box 642</string>
+		<key>voteSmartID</key>
+		<integer>117396</integer>
+		<key>zip</key>
+		<integer>26507</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Visalia</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$41,500</string>
+		<key>name</key>
+		<string>Devin Nunes</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/16725.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>Post Office Box 6545</string>
+		<key>voteSmartID</key>
+		<integer>16725</integer>
+		<key>zip</key>
+		<integer>93290</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Tupelo</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$7,000</string>
+		<key>name</key>
+		<string>Alan Nunnelee</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/8326.jpg</string>
+		<key>state</key>
+		<string>MS</string>
+		<key>street</key>
+		<string>Post Office Box 7092</string>
+		<key>voteSmartID</key>
+		<integer>8326</integer>
+		<key>zip</key>
+		<integer>38802</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Oklahoma City</string>
+		<key>currentFunding</key>
+		<string>$4,500</string>
+		<key>lifetimeFunding</key>
+		<string>$14,500</string>
+		<key>name</key>
+		<string>James Lankford</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/124938.jpg</string>
+		<key>state</key>
+		<string>OK</string>
+		<key>street</key>
+		<string>Post Office Box 721789</string>
+		<key>voteSmartID</key>
+		<integer>124938</integer>
+		<key>zip</key>
+		<integer>73172</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Huntington</string>
+		<key>currentFunding</key>
+		<string>$15,200</string>
+		<key>lifetimeFunding</key>
+		<string>$15,200</string>
+		<key>name</key>
+		<string>Evan Jenkins</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/8297.jpg</string>
+		<key>state</key>
+		<string>WV</string>
+		<key>street</key>
+		<string>Post Office Box 727</string>
+		<key>voteSmartID</key>
+		<integer>8297</integer>
+		<key>zip</key>
+		<integer>25711</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Lakeland</string>
+		<key>currentFunding</key>
+		<string>$10,000</string>
+		<key>lifetimeFunding</key>
+		<string>$30,000</string>
+		<key>name</key>
+		<string>Dennis Ross</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/12813.jpg</string>
+		<key>state</key>
+		<string>FL</string>
+		<key>street</key>
+		<string>Post Office Box 7310</string>
+		<key>voteSmartID</key>
+		<integer>12813</integer>
+		<key>zip</key>
+		<integer>33807</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Little Rock</string>
+		<key>currentFunding</key>
+		<string>$5,000</string>
+		<key>lifetimeFunding</key>
+		<string>$57,427</string>
+		<key>name</key>
+		<string>Tim Griffin</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/119213.jpg</string>
+		<key>state</key>
+		<string>AR</string>
+		<key>street</key>
+		<string>Post Office Box 7546</string>
+		<key>voteSmartID</key>
+		<integer>119213</integer>
+		<key>zip</key>
+		<integer>72217</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Wichita</string>
+		<key>currentFunding</key>
+		<string>$116,250</string>
+		<key>lifetimeFunding</key>
+		<string>$323,400</string>
+		<key>name</key>
+		<string>Mike Pompeo</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/125023.jpg</string>
+		<key>state</key>
+		<string>KS</string>
+		<key>street</key>
+		<string>Post Office Box 780146</string>
+		<key>voteSmartID</key>
+		<integer>125023</integer>
+		<key>zip</key>
+		<integer>67278</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Baton Rouge</string>
+		<key>currentFunding</key>
+		<string>$15,000</string>
+		<key>lifetimeFunding</key>
+		<string>$31,000</string>
+		<key>name</key>
+		<string>Bill Cassidy</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/69494.jpg</string>
+		<key>state</key>
+		<string>LA</string>
+		<key>street</key>
+		<string>Post Office Box 80505</string>
+		<key>voteSmartID</key>
+		<integer>69494</integer>
+		<key>zip</key>
+		<integer>70898</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Tyler</string>
+		<key>currentFunding</key>
+		<string>$3,500</string>
+		<key>lifetimeFunding</key>
+		<string>$28,000</string>
+		<key>name</key>
+		<string>Louis B Jr Gohmert</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/50029.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>Post Office Box 8060</string>
+		<key>voteSmartID</key>
+		<integer>50029</integer>
+		<key>zip</key>
+		<integer>75711</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Dallas</string>
+		<key>currentFunding</key>
+		<string>$9,500</string>
+		<key>lifetimeFunding</key>
+		<string>$69,621</string>
+		<key>name</key>
+		<string>Jeb Hensarling</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/49827.jpg</string>
+		<key>state</key>
+		<string>TX</string>
+		<key>street</key>
+		<string>Post Office Box 820504</string>
+		<key>voteSmartID</key>
+		<integer>49827</integer>
+		<key>zip</key>
+		<integer>75382</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Hanford</string>
+		<key>currentFunding</key>
+		<string>$11,000</string>
+		<key>lifetimeFunding</key>
+		<string>$21,000</string>
+		<key>name</key>
+		<string>David Valadao</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/120200.jpg</string>
+		<key>state</key>
+		<string>CA</string>
+		<key>street</key>
+		<string>Post Office Box 839</string>
+		<key>voteSmartID</key>
+		<integer>120200</integer>
+		<key>zip</key>
+		<integer>93232</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Newton</string>
+		<key>currentFunding</key>
+		<string>$12,100</string>
+		<key>lifetimeFunding</key>
+		<string>$122,790</string>
+		<key>name</key>
+		<string>Scott Garrett</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/4430.jpg</string>
+		<key>state</key>
+		<string>NJ</string>
+		<key>street</key>
+		<string>Post Office Box 905</string>
+		<key>voteSmartID</key>
+		<integer>4430</integer>
+		<key>zip</key>
+		<string>07860</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Des Moines</string>
+		<key>currentFunding</key>
+		<string>$323</string>
+		<key>lifetimeFunding</key>
+		<string>$323</string>
+		<key>name</key>
+		<string>Joni Ernst</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/128583.jpg</string>
+		<key>state</key>
+		<string>IA</string>
+		<key>street</key>
+		<string>Post Office Box 93441</string>
+		<key>voteSmartID</key>
+		<integer>128583</integer>
+		<key>zip</key>
+		<integer>50393</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Tifton</string>
+		<key>currentFunding</key>
+		<string>$2,000</string>
+		<key>lifetimeFunding</key>
+		<string>$4,500</string>
+		<key>name</key>
+		<string>Austin Scott</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/11812.jpg</string>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>Post Office Box 988</string>
+		<key>voteSmartID</key>
+		<integer>11812</integer>
+		<key>zip</key>
+		<integer>31793</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Westville</string>
+		<key>currentFunding</key>
+		<string>$5,500</string>
+		<key>lifetimeFunding</key>
+		<string>$10,500</string>
+		<key>name</key>
+		<string>Markwayne Mullin</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/135898.jpg</string>
+		<key>state</key>
+		<string>OK</string>
+		<key>street</key>
+		<string>Rural Road 1 Box 8255</string>
+		<key>voteSmartID</key>
+		<integer>135898</integer>
+		<key>zip</key>
+		<integer>74965</integer>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Allentown</string>
+		<key>currentFunding</key>
+		<string>$5,750</string>
+		<key>lifetimeFunding</key>
+		<string>$28,500</string>
+		<key>name</key>
+		<string>Charlie Dent</string>
+		<key>photo</key>
+		<string>http://static.votesmart.org/canphoto/9121.jpg</string>
+		<key>state</key>
+		<string>PA</string>
+		<key>street</key>
+		<string>Suite 3</string>
+		<key>voteSmartID</key>
+		<integer>9121</integer>
+		<key>zip</key>
+		<integer>18103</integer>
+	</dict>
+</array>
+</plist>

@@ -15,6 +15,7 @@
 		346387BE199E6A2B00B97700 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346387BD199E6A2B00B97700 /* MapKit.framework */; };
 		346387C0199E6A3300B97700 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346387BF199E6A3300B97700 /* CoreLocation.framework */; };
 		346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346387C1199FBA7A00B97700 /* MapViewController.swift */; };
+		347BEE9D19A46A74009F5EDC /* kochPoliticians.plist in Resources */ = {isa = PBXBuildFile; fileRef = 347BEE9C19A46A74009F5EDC /* kochPoliticians.plist */; };
 		34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3B19A2774D001799ED /* ProfileViewController.swift */; };
 		34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */; };
 		34D9DB4019A31290001799ED /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3F19A31290001799ED /* BioViewController.swift */; };
@@ -43,6 +44,7 @@
 		346387BD199E6A2B00B97700 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		346387BF199E6A3300B97700 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		346387C1199FBA7A00B97700 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		347BEE9C19A46A74009F5EDC /* kochPoliticians.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kochPoliticians.plist; sourceTree = "<group>"; };
 		34D9DB3B19A2774D001799ED /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeActionViewController.swift; sourceTree = "<group>"; };
 		34D9DB3F19A31290001799ED /* BioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				346387A0199E6A0F00B97700 /* AppDelegate.swift */,
 				3463879F199E6A0F00B97700 /* Info.plist */,
+				347BEE9C19A46A74009F5EDC /* kochPoliticians.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347BEE9D19A46A74009F5EDC /* kochPoliticians.plist in Resources */,
 				346387A6199E6A0F00B97700 /* Main.storyboard in Resources */,
 				346387A8199E6A0F00B97700 /* Images.xcassets in Resources */,
 			);
