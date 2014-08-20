@@ -29,20 +29,16 @@ class ProfileViewController: UIViewController {
         
         politicianName.setTitle(politician["name"] as String, forState: .Normal)
         
-        if politician["position"] != nil {
-            var pos:String = politician["position"] as String
-        }
-        
-        if politician["party"] != nil {
-            var par:String = politician["party"] as String
-        }
+//        var pos:String = politician["position"] as String
+//        var par:String = politician["party"] as String
+
+        // Hard-code data for Pat Toomey
+        var pos:String = "U.S. Senator"
+        var par:String = "R"
         
         var sta:String = politician["state"] as String
         
-        // UNCOMMENT BELOW LINE WHEN PASSING IN PARTY AND POSITION
-//        politicianPosition.text = "\(pos) (\(par)-\(sta))"
-        
-        politicianPosition.text = "\(sta)"
+        politicianPosition.text = "\(pos) (\(par)-\(sta))"
         
         currentFunding.text = politician["currentFunding"] as String
         lifetimeFunding.text = politician["lifetimeFunding"] as String
