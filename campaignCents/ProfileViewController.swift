@@ -24,7 +24,7 @@ class ProfileViewController: UIViewController {
         // Grabs photo from url
         let url = NSURL.URLWithString(politician["photo"]);
         var err: NSError?
-        var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+        var imageData:NSData? = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
         politicianImage.image = UIImage(data:imageData)
         
         politicianName.setTitle(politician["name"], forState: .Normal)

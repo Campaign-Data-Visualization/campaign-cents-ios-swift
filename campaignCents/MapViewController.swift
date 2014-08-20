@@ -168,47 +168,19 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             pinView!.animatesDrop = true
             pinView!.pinColor = .Red
             
-            
-            // Hardcode for Pat Toomey photo to appear from Philadelphia
-            if annotation.title? == "Pat Toomey" {
-                var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
-                
-                let url = NSURL.URLWithString("http://static.votesmart.org/canphoto/24096.jpg");
-                var err: NSError?
-                var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
-                if imageData != nil {
-                    imageview.image = UIImage(data:imageData)
-                    pinView!.leftCalloutAccessoryView = imageview
+            for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
+                if annotation.title == (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as? String {
+                    var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
+                    
+                    let url = NSURL.URLWithString((kochPoliticiansDictionary!["New item"]! as NSArray)[i]["photo"]! as? String);
+                    var err: NSError?
+                    var imageData:NSData? = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+                    if imageData != nil {
+                        imageview.image = UIImage(data:imageData)
+                        pinView!.leftCalloutAccessoryView = imageview
+                    }
                 }
             }
-            
-            // Hardcode for Patrick Meehan photo to appear from Philadelphia
-            if annotation.title? == "Patrick Meehan" {
-                var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
-                
-                let url = NSURL.URLWithString("http://static.votesmart.org/canphoto/119474.jpg");
-                var err: NSError?
-                var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
-                if imageData != nil {
-                    imageview.image = UIImage(data:imageData)
-                    pinView!.leftCalloutAccessoryView = imageview
-                }
-            }
-            
-//            // CURRENTLY ERRORS OUT WHEN SOME IMAGES RETURN NIL
-//            for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
-//                if annotation.title == (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as? String {
-//                    var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
-//                    
-//                    let url = NSURL.URLWithString((kochPoliticiansDictionary!["New item"]! as NSArray)[i]["photo"]! as? String);
-//                    var err: NSError?
-//                    var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
-//                    if imageData != nil {
-//                        imageview.image = UIImage(data:imageData)
-//                        pinView!.leftCalloutAccessoryView = imageview
-//                    }
-//                }
-//            }
             
             pinView!.rightCalloutAccessoryView = UIButton.buttonWithType(.DetailDisclosure) as UIButton
         } else {
