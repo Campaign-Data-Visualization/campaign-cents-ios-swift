@@ -22,30 +22,30 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
         
         // Grabs photo from url
-        let url = NSURL.URLWithString(politician["photo"]);
+        let url = NSURL.URLWithString(politician["photo"] as String);
         var err: NSError?
         var imageData:NSData? = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
         politicianImage.image = UIImage(data:imageData)
         
-        politicianName.setTitle(politician["name"], forState: .Normal)
+        politicianName.setTitle(politician["name"] as String, forState: .Normal)
         
         if politician["position"] != nil {
-            var pos:String = politician["position"]!
+            var pos:String = politician["position"] as String
         }
         
         if politician["party"] != nil {
-            var par:String = politician["party"]!
+            var par:String = politician["party"] as String
         }
         
-        var sta:String = politician["state"]!
+        var sta:String = politician["state"] as String
         
         // UNCOMMENT BELOW LINE WHEN PASSING IN PARTY AND POSITION
 //        politicianPosition.text = "\(pos) (\(par)-\(sta))"
         
         politicianPosition.text = "\(sta)"
         
-        currentFunding.text = politician["currentFunding"]
-        lifetimeFunding.text = politician["lifetimeFunding"]
+        currentFunding.text = politician["currentFunding"] as String
+        lifetimeFunding.text = politician["lifetimeFunding"] as String
     }
 
     override func didReceiveMemoryWarning() {
