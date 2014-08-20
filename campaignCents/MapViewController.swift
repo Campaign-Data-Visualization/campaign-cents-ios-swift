@@ -17,6 +17,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet var kochPoliticiansNationwide: UILabel!
     
+    // Will hold data from plist
+    var kochPoliticiansDictionary: AnyObject? = nil;
+
+    
     // Defaults to Austin, TX
     var latSelected:Double = 30.274751
     var lngSelected:Double = -97.739141
@@ -26,13 +30,6 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     var deltaSelected:Double = 0.11
     var politician = Dictionary<String, String>()
     
-    // 242 Koch politicians
-    var politician1 = ["voteSmartID":"34230","name":"Marlin Stutzman","street":"0250 West 600 North","city":"Howe","state":"IN","zip":"46746","lifetimeFunding":"$12600","currentFunding":"$5000","photo":"http://static.votesmart.org/canphoto/34230.jpg"]
-    var politician2 = ["voteSmartID":"116570","name":"Bobby Schilling","street":"1 Goembel Court","city":"Colona","state":"IL","zip":"61241","lifetimeFunding":"$25000","currentFunding":"$7500","photo":"http://static.votesmart.org/canphoto/116570.jpg"]
-    var politician3 = ["voteSmartID":"50895","name":"Robert Hurt","street":"10 North Main Street","city":"Chatham","state":"VA","zip":"24531","lifetimeFunding":"$20500","currentFunding":"$4500","photo":"http://static.votesmart.org/canphoto/50895.jpg"]
-    var politician4 = ["voteSmartID":"8751","name":"Mike Rogers","street":"1000 West Saint Joseph Suite 300","city":"Lansing","state":"MI","zip":"48915","lifetimeFunding":"$105860","currentFunding":"$1000","photo":"http://static.votesmart.org/canphoto/8751.jpg"]
-    var politician5 = ["voteSmartID":"18829","name":"Brett Guthrie","street":"1005 Wrenwood Drive","city":"Bowling Green","state":"KY","zip":"42103","lifetimeFunding":"$27000","currentFunding":"$7000","photo":"http://static.votesmart.org/canphoto/18829.jpg"]
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,19 +53,22 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
 
         kochPoliticiansNationwide.text = "Koch Politicians Nationwide: 242"
 
-        for var i = 0; i < 6; i++ {
+        
+        // Loading array from kochPoliticians.plist
+        var documentList = NSBundle.mainBundle().pathForResource("kochPoliticians", ofType:"plist")
+        kochPoliticiansDictionary = NSDictionary(contentsOfFile: documentList)
+        println(" \(__FUNCTION__)Fetching 'kochPoliticians.plist 'file \n \(kochPoliticiansDictionary) \n")
+        
+
+        for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
             var politician = MKPointAnnotation()
             
-            println("politician\(i)")
+            var politicianName:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["name"]! as String
+            var politicianLifetimeFunding:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["lifetimeFunding"]! as String
             
-            var currentPolitician = "politician\(i)"
-            
-            var politicianName:String = currentPolitician["name"]! as String
-            var politicianLifetimeFunding:String = currentPolitician["lifetimeFunding"]! as String
-            
-            var street:String = politicians[i]["street"]!
-            var city:String = politicians[i]["city"]!
-            var state:String = politicians[i]["state"]!
+            var street:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["street"] as String
+            var city:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["city"] as String
+            var state:String = (kochPoliticiansDictionary!["New item"] as NSArray)[i]["state"] as String
             
             var address = "\(street), \(city) \(state)"
             
@@ -77,8 +77,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             geocoder.geocodeAddressString(address, completionHandler:{
                 (placemarks, error) in
                 
-                if (error) {
-                    println("JASEN|Error: \(error)")
+                if ((error) != nil) {
+                    println("JASEN|geocoder error: \(error)")
                 } else {
                     println("JASEN|Placemarks: \(placemarks)")
                     
@@ -168,11 +168,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             pinView!.animatesDrop = true
             pinView!.pinColor = .Red
             
-            for var i = 0; i < politicians.count; i++ {
-                if annotation.title == politicians[i]["name"] {
+            for var i = 0; i < (kochPoliticiansDictionary!["New item"] as NSArray).count; i++ {
+                if annotation.title == (kochPoliticiansDictionary!["New item"] as NSArray)[i]["name"]! as? String {
                     var imageview = UIImageView(frame: CGRectMake(0, 0, 45, 45))
                     
-                    let url = NSURL.URLWithString(politicians[i]["photo"]);
+                    let url = NSURL.URLWithString((kochPoliticiansDictionary!["New item"] as NSArray)[i]["photo"]! as? String);
                     var err: NSError?
                     var imageData:NSData = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
                     imageview.image = UIImage(data:imageData)
@@ -191,9 +191,9 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     // Segues to profileVC when annotation tapped
     func mapView(mapView: MKMapView!, annotationView: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
-        for var i = 0; i < politicians.count; i++ {
-            if politicians[i]["name"] == annotationView.annotation.title {
-                politician = politicians[i]
+        for var i = 0; i < (kochPoliticiansDictionary!["New item"] as NSArray).count; i++ {
+            if (kochPoliticiansDictionary!["New item"] as NSArray)[i]["name"]! as? String == annotationView.annotation.title {
+//                politician = (kochPoliticiansDictionary!["New item"][i] as NSArray)
             }
         }
         
