@@ -62,11 +62,12 @@ class CompleteListTableViewController: UITableViewController {
             
             
             var tempState = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["state"]! as NSString
-            var tempParty = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["party"]! as NSString
+            var tempPartyLetter = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["partyLetter"]! as NSString
+            var tempPosition = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["position"]! as NSString
             
-            cell.detailTextLabel.text = "\(tempState) - \(tempParty)"
+            cell.detailTextLabel.text = "\(tempPosition) (\(tempState)-\(tempPartyLetter))"
             
-            cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+            cell.accessoryType = UITableViewCellAccessoryType.None
         }
         
 /*
