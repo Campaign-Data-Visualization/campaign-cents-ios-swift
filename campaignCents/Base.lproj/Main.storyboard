@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kbY-3b-zyv">
     <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
     </dependencies>
     <scenes>
@@ -144,12 +145,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" id="wg5-HM-wbJ">
+                        <searchBar key="tableHeaderView" contentMode="redraw" text="" placeholder="Filter for any candidate(s)" id="dn5-7g-4Qf">
                             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
-                                <outlet property="delegate" destination="MbI-nS-SmQ" id="2MH-yD-qd0"/>
+                                <outlet property="delegate" destination="MbI-nS-SmQ" id="d7h-d5-dmk"/>
                             </connections>
                         </searchBar>
                         <prototypes>
@@ -186,17 +187,25 @@
                         <size key="landscapeSize" width="568" height="320"/>
                     </simulatedScreenMetrics>
                     <connections>
-                        <outlet property="searchDisplayController" destination="7Ny-Kd-uD5" id="3d9-0a-Ddz"/>
+                        <outlet property="searchDisplayController" destination="1I1-pZ-YRy" id="fc8-iA-zCC"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZhF-TO-xZ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <searchDisplayController id="7Ny-Kd-uD5">
                     <connections>
                         <outlet property="delegate" destination="MbI-nS-SmQ" id="U3z-ee-Mpu"/>
-                        <outlet property="searchBar" destination="wg5-HM-wbJ" id="nFn-G2-ZEU"/>
                         <outlet property="searchContentsController" destination="MbI-nS-SmQ" id="rRS-j3-zv7"/>
                         <outlet property="searchResultsDataSource" destination="MbI-nS-SmQ" id="zj2-qk-pG6"/>
                         <outlet property="searchResultsDelegate" destination="MbI-nS-SmQ" id="t9b-ae-8IS"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="1I1-pZ-YRy">
+                    <connections>
+                        <outlet property="delegate" destination="MbI-nS-SmQ" id="Hgc-3I-zKF"/>
+                        <outlet property="searchBar" destination="dn5-7g-4Qf" id="Wgt-vw-rVI"/>
+                        <outlet property="searchContentsController" destination="MbI-nS-SmQ" id="sCL-M4-cXe"/>
+                        <outlet property="searchResultsDataSource" destination="MbI-nS-SmQ" id="LLC-PM-OV9"/>
+                        <outlet property="searchResultsDelegate" destination="MbI-nS-SmQ" id="plf-ko-yND"/>
                     </connections>
                 </searchDisplayController>
             </objects>

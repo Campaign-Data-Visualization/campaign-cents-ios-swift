@@ -18,6 +18,7 @@
 		347BEE9D19A46A74009F5EDC /* kochPoliticians.plist in Resources */ = {isa = PBXBuildFile; fileRef = 347BEE9C19A46A74009F5EDC /* kochPoliticians.plist */; };
 		349EED9A19A5CF9400063D72 /* nationalCandidatesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 349EED9919A5CF9400063D72 /* nationalCandidatesList.plist */; };
 		349EED9C19A5CFE800063D72 /* CompleteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EED9B19A5CFE800063D72 /* CompleteListTableViewController.swift */; };
+		34D0E79519A687DF00E71C17 /* Politician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0E79419A687DF00E71C17 /* Politician.swift */; };
 		34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3B19A2774D001799ED /* ProfileViewController.swift */; };
 		34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		347BEE9C19A46A74009F5EDC /* kochPoliticians.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kochPoliticians.plist; sourceTree = "<group>"; };
 		349EED9919A5CF9400063D72 /* nationalCandidatesList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = nationalCandidatesList.plist; path = ../nationalCandidatesList.plist; sourceTree = "<group>"; };
 		349EED9B19A5CFE800063D72 /* CompleteListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteListTableViewController.swift; sourceTree = "<group>"; };
+		34D0E79419A687DF00E71C17 /* Politician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Politician.swift; sourceTree = "<group>"; };
 		34D9DB3B19A2774D001799ED /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeActionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +100,7 @@
 				346387A4199E6A0F00B97700 /* Main.storyboard */,
 				346387A2199E6A0F00B97700 /* ViewController.swift */,
 				349EED9B19A5CFE800063D72 /* CompleteListTableViewController.swift */,
+				34D0E79419A687DF00E71C17 /* Politician.swift */,
 				346387C1199FBA7A00B97700 /* MapViewController.swift */,
 				34D9DB3B19A2774D001799ED /* ProfileViewController.swift */,
 				34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */,
@@ -240,6 +243,7 @@
 				346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */,
 				34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */,
 				346387A1199E6A0F00B97700 /* AppDelegate.swift in Sources */,
+				34D0E79519A687DF00E71C17 /* Politician.swift in Sources */,
 				34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */,
 				349EED9C19A5CFE800063D72 /* CompleteListTableViewController.swift in Sources */,
 			);
