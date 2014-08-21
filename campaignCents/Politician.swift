@@ -16,9 +16,9 @@ class Politician {
     var partyLetter: String
     var position: String
     var state: String
-    var voteSmartID: String
+    var voteSmartID: Any
     
-    init(firstName:String, fullName:String, lastName:String, party:String, partyLetter:String, position:String, state:String, voteSmartID:String) {
+    init(firstName:String, fullName:String, lastName:String, party:String, partyLetter:String, position:String, state:String, voteSmartID:Any) {
         self.firstName = firstName
         self.lastName = lastName
         self.fullName = fullName
