@@ -53,7 +53,13 @@ class CompleteListTableViewController: UITableViewController {
 
         //ask for a reusable cell from the tableview, the tableview will create a new one if it doesn't have any
         let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
-/*        
+
+        if ((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary! != nil {
+            cell.textLabel.text = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![0] as NSDictionary!)["fullName"]! as NSString
+            cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+        }
+        
+/*
         var candidate:AnyObject? = nil;
         // Check to see whether the normal table or search results table is being displayed and set the Candy object from the appropriate array
         if tableView == self.searchDisplayController.searchResultsTableView {

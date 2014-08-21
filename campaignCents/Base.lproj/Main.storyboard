@@ -67,7 +67,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MbI-nS-SmQ" kind="show" identifier="toCandidatesList" id="r1h-yi-1xa"/>
+                                    <segue destination="MbI-nS-SmQ" kind="show" identifier="toCandidatesList" id="H4f-zG-hz1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -137,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="815" y="423"/>
         </scene>
-        <!--Complete List Table View Controller-->
+        <!--National Candidates-->
         <scene sceneID="Ryq-9o-EVs">
             <objects>
                 <tableViewController id="MbI-nS-SmQ" customClass="CompleteListTableViewController" customModule="campaignCents" customModuleProvider="target" sceneMemberID="viewController">
@@ -166,6 +166,7 @@
                             <outlet property="delegate" destination="MbI-nS-SmQ" id="utl-OY-ixJ"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="National Candidates" id="xkn-UX-qr5"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
                         <size key="portraitSize" width="320" height="568"/>
@@ -186,7 +187,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="815" y="-279"/>
+            <point key="canvasLocation" x="815" y="-253"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Zmq-Gi-f2y">
