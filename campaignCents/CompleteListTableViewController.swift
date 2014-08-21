@@ -59,6 +59,13 @@ class CompleteListTableViewController: UITableViewController {
 
         if ((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary! != nil {
             cell.textLabel.text = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["fullName"]! as NSString
+            
+            
+            var tempState = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["state"]! as NSString
+            var tempParty = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["party"]! as NSString
+            
+            cell.detailTextLabel.text = "\(tempState) - \(tempParty)"
+            
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         }
         
