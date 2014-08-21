@@ -8,13 +8,14 @@
 
 import UIKit
 
-class CompleteListTableViewController: UITableViewController {
+class CompleteListTableViewController: UITableViewController, UISearchBarDelegate, UISearchDisplayDelegate {
 
     // Full list from plist
     var candidatesDictionary:AnyObject? = nil;
     
     // Filtered list of candidates
-    var filteredCandidates:AnyObject? = nil;
+//    var filteredCandidates:AnyObject? = nil;
+    var filteredCandidates = [Politician]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +47,8 @@ class CompleteListTableViewController: UITableViewController {
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         // Adjust number of rows to be either number of search results OR total list
         if tableView == self.searchDisplayController.searchResultsTableView {
-            return (filteredCandidates!["New item"]! as NSArray).count
+//            return (filteredCandidates!["New item"]! as NSArray).count
+            return filteredCandidates.count
         } else {
             return (candidatesDictionary!["New item"]! as NSArray).count
         }
@@ -73,7 +75,28 @@ class CompleteListTableViewController: UITableViewController {
         return cell
     }
     
+    // Filter the array using the filter method
+    func filterContentForSearchText (searchText:String) {
+//        self.filteredCandidates = self.candidatesDictionary.filter({( currentCandidate:Politician) -> Bool in
+//            if currentCandidate.fullName.rangeOfString(searchText) != nil {
+//                return true
+//            } else {
+//                return false
+//            }
+//        })
+    }
     
+    // Runs the text filtering function whenever the user changes the search string in the search bar
+    func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchString searchString: String!) -> Bool {
+        self.filterContentForSearchText(searchString)
+        return true
+    }
+    
+    // Will handle the changes in the Scope Bar input
+    func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchScope searchOption: Int) -> Bool {
+        self.filterContentForSearchText(self.searchDisplayController.searchBar.text)
+        return true
+    }
     
     
     /*
