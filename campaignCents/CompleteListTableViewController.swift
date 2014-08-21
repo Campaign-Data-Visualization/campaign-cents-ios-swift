@@ -73,6 +73,17 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
             
             cell.textLabel.text = "\(filteredCandidates[indexPath.row].fullName)"
             cell.detailTextLabel.text = "\(filteredCandidates[indexPath.row].position) (\(filteredCandidates[indexPath.row].state)-\(filteredCandidates[indexPath.row].partyLetter))"
+            
+            // Gets photo from votesmart API
+            var tempVoteSmartID = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["voteSmartID"]! as Int
+            
+            let url = NSURL.URLWithString("http://votesmart.org/canphoto/\(tempVoteSmartID).jpg")
+            var err: NSError?
+            var imageData:NSData? = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+            if imageData != nil {
+                cell.imageView.image = UIImage(data:imageData)
+            }
+            
             cell.accessoryType = UITableViewCellAccessoryType.None
         } else {
             if ((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary! != nil {
