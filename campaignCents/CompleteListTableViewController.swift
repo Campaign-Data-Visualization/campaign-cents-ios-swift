@@ -42,27 +42,19 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
                 state: (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![i] as NSDictionary!)["state"]! as NSString,
                 voteSmartID: (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![i] as NSDictionary!)["voteSmartID"]! as NSInteger))
         }
-        
-        println("JASEN|candidatesArray--------> \(candidatesArray)")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
-
     override func numberOfSectionsInTableView(tableView: UITableView!) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
         return 1
     }
 
+    // Adjust number of rows to be either number of search results OR total list
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
-        // Adjust number of rows to be either number of search results OR total list
         if tableView == self.searchDisplayController.searchResultsTableView {
-//            return (filteredCandidates!["New item"]! as NSArray).count
             return filteredCandidates.count
         } else {
             return (candidatesDictionary!["New item"]! as NSArray).count
@@ -99,25 +91,30 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
     }
     
     // Filter the array using the filter method
-    func filterContentForSearchText (searchText:String) {
+    func filterContentForSearchText (searchText:String, scope:String = "All") {
         self.filteredCandidates = self.candidatesArray.filter({( currentCandidate:Politician ) -> Bool in
-            if currentCandidate.fullName.rangeOfString(searchText) != nil || currentCandidate.state.rangeOfString(searchText) != nil || currentCandidate.party.rangeOfString(searchText) != nil{
-                return true
-            } else {
-                return false
-            }
+            var categoryMatch = (scope == "All") || (currentCandidate.party == scope)
+
+            var nameMatch = (currentCandidate.fullName.rangeOfString(searchText))
+            var stateMatch = (currentCandidate.state.rangeOfString(searchText))
+            var partyMatch = (currentCandidate.party.rangeOfString(searchText))
+
+            return (categoryMatch && nameMatch != nil || categoryMatch && stateMatch != nil || categoryMatch && partyMatch != nil)
         })
     }
     
     // Runs the text filtering function whenever the user changes the search string in the search bar
     func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchString searchString: String!) -> Bool {
-        self.filterContentForSearchText(searchString)
+        let scopes = self.searchDisplayController.searchBar.scopeButtonTitles as [String]
+        let selectedScope = scopes[self.searchDisplayController.searchBar.selectedScopeButtonIndex] as String
+        self.filterContentForSearchText(searchString, scope: selectedScope)
         return true
     }
     
     // Will handle the changes in the Scope Bar input
     func searchDisplayController(controller: UISearchDisplayController!, shouldReloadTableForSearchScope searchOption: Int) -> Bool {
-        self.filterContentForSearchText(self.searchDisplayController.searchBar.text)
+        let scope = self.searchDisplayController.searchBar.scopeButtonTitles as [String]
+        self.filterContentForSearchText(self.searchDisplayController.searchBar.text, scope: scope[searchOption])
         return true
     }
     
