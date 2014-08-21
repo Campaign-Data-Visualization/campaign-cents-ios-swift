@@ -51,20 +51,6 @@
                                     <segue destination="frm-9k-VZS" kind="show" identifier="toKochMap" id="24Q-kB-aqx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vux-CB-0iz">
-                                <rect key="frame" x="251" y="186" width="37" height="30"/>
-                                <state key="normal" title="Enter">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="VPu-Bh-GqP" kind="show" identifier="toProfile" id="bDE-S1-DAh"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Candidate Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pec-iM-bEm">
-                                <rect key="frame" x="30" y="190" width="211" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l00-a7-32J">
                                 <rect key="frame" x="66" y="429" width="57" height="30"/>
                                 <state key="normal" title="National">
@@ -74,6 +60,12 @@
                                     <action selector="national:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sDR-dI-R1g"/>
                                     <segue destination="frm-9k-VZS" kind="show" identifier="toKochMap" id="i0n-L7-VIf"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vux-CB-0iz">
+                                <rect key="frame" x="112" y="188" width="96" height="30"/>
+                                <state key="normal" title="Complete List">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -360,6 +352,5 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="24Q-kB-aqx"/>
-        <segue reference="N78-tV-NwZ"/>
     </inferredMetricsTieBreakers>
 </document>
