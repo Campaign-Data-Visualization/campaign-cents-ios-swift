@@ -70,27 +70,12 @@ class CompleteListTableViewController: UITableViewController {
             cell.accessoryType = UITableViewCellAccessoryType.None
         }
         
-/*
-        var candidate:AnyObject? = nil;
-        // Check to see whether the normal table or search results table is being displayed and set the Candy object from the appropriate array
-        if tableView == self.searchDisplayController.searchResultsTableView {
-            candidate = (filteredCandidates!["New item"]! as NSArray)[indexPath.row]
-        } else {
-            candidate = (candidatesDictionary!["New item"]! as NSArray)[indexPath.row]
-        }
-        
-        println("*******************************")
-        
-        // Configure the cell
-        if (candidate! as NSDictionary)["fullname"]! as? String != nil {
-            cell.textLabel.text = (candidate! as NSDictionary)["fullname"]! as? String
-            cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
-        }
-*/
         return cell
     }
-
-
+    
+    
+    
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView!, canEditRowAtIndexPath indexPath: NSIndexPath!) -> Bool {

@@ -72,8 +72,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             var state:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["state"] as String
             
             var address = "\(street), \(city) \(state)"
-            
-            // Converts address to latitude and lonjgitude and then plots it on map
+      
+            // Converts address to latitude and longitude and then plots it on map
             var geocoder = CLGeocoder()
             geocoder.geocodeAddressString(address, completionHandler:{
                 (placemarks, error) in
@@ -81,7 +81,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
                 if ((error) != nil) {
                     println("JASEN|geocoder error: \(error)")
                 } else {
-                    println("JASEN|Placemarks: \(placemarks)")
+                    println("JASEN|placemarks?[0]: \(placemarks?[0])")
                     
                     let p = CLPlacemark(placemark: placemarks?[0] as CLPlacemark)
                     
@@ -98,7 +98,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             })
         }
     }
-
+    
     func googleAPI(location: String) {
     
         let mySession = NSURLSession.sharedSession()
