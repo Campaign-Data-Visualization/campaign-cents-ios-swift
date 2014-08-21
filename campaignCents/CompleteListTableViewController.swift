@@ -101,7 +101,7 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
     // Filter the array using the filter method
     func filterContentForSearchText (searchText:String) {
         self.filteredCandidates = self.candidatesArray.filter({( currentCandidate:Politician ) -> Bool in
-            if currentCandidate.fullName.rangeOfString(searchText) != nil {
+            if currentCandidate.fullName.rangeOfString(searchText) != nil || currentCandidate.state.rangeOfString(searchText) != nil || currentCandidate.party.rangeOfString(searchText) != nil{
                 return true
             } else {
                 return false
