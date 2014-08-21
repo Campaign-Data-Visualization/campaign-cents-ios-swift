@@ -83,6 +83,10 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
                 var tempPosition = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["position"]! as NSString
                 
                 cell.detailTextLabel.text = "\(tempPosition) (\(tempState)-\(tempPartyLetter))"
+                
+                var image:UIImage = UIImage(named: "Williams, Roger")
+                cell.imageView.image = image
+                
                 cell.accessoryType = UITableViewCellAccessoryType.None
             }
         }
