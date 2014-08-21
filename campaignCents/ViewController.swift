@@ -18,6 +18,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     var manager:CLLocationManager!
     
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController.navigationBarHidden = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
