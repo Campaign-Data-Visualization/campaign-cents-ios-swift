@@ -73,18 +73,28 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
 
         //ask for a reusable cell from the tableview, the tableview will create a new one if it doesn't have any
         let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
-        
-        if ((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary! != nil {
-            cell.textLabel.text = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["fullName"]! as NSString
+
+        var candidate : Politician
+        // Check to see whether the normal table or search results table is being displayed and set the Candy object from the appropriate array
+        if tableView == self.searchDisplayController.searchResultsTableView {
+            candidate = filteredCandidates[indexPath.row]
             
-            var tempState = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["state"]! as NSString
-            var tempPartyLetter = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["partyLetter"]! as NSString
-            var tempPosition = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["position"]! as NSString
-            
-            cell.detailTextLabel.text = "\(tempPosition) (\(tempState)-\(tempPartyLetter))"
+            cell.textLabel.text = "\(filteredCandidates[indexPath.row].fullName)"
+            cell.detailTextLabel.text = "\(filteredCandidates[indexPath.row].position) (\(filteredCandidates[indexPath.row].state)-\(filteredCandidates[indexPath.row].partyLetter))"
             cell.accessoryType = UITableViewCellAccessoryType.None
+        } else {
+            if ((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary! != nil {
+                cell.textLabel.text = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["fullName"]! as NSString
+                
+                var tempState = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["state"]! as NSString
+                var tempPartyLetter = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["partyLetter"]! as NSString
+                var tempPosition = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["position"]! as NSString
+                
+                cell.detailTextLabel.text = "\(tempPosition) (\(tempState)-\(tempPartyLetter))"
+                cell.accessoryType = UITableViewCellAccessoryType.None
+            }
         }
-        
+
         return cell
     }
     
