@@ -84,8 +84,15 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
                 
                 cell.detailTextLabel.text = "\(tempPosition) (\(tempState)-\(tempPartyLetter))"
                 
-                var image:UIImage = UIImage(named: "Williams, Roger")
-                cell.imageView.image = image
+                // Gets photo from votesmart API
+                var tempVoteSmartID = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["voteSmartID"]! as Int
+                
+                let url = NSURL.URLWithString("http://votesmart.org/canphoto/\(tempVoteSmartID).jpg")
+                var err: NSError?
+                var imageData:NSData? = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+                if imageData != nil {
+                    cell.imageView.image = UIImage(data:imageData)
+                }
                 
                 cell.accessoryType = UITableViewCellAccessoryType.None
             }
