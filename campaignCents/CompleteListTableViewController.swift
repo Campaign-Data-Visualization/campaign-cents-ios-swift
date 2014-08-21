@@ -25,6 +25,9 @@ class CompleteListTableViewController: UITableViewController {
         println(" \(__FUNCTION__)Fetching 'kochPoliticians.plist 'file \n \(candidatesDictionary) \n")
         
         self.tableView.reloadData()
+        
+        // Hides navigationController on first VC, which is loaded on app load
+        self.navigationController.navigationBarHidden = false
     }
 
     override func didReceiveMemoryWarning() {
@@ -55,7 +58,7 @@ class CompleteListTableViewController: UITableViewController {
         let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
 
         if ((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary! != nil {
-            cell.textLabel.text = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![0] as NSDictionary!)["fullName"]! as NSString
+            cell.textLabel.text = (((candidatesDictionary! as NSDictionary)["New item"] as? NSArray)![indexPath.row] as NSDictionary!)["fullName"]! as NSString
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         }
         
@@ -75,7 +78,6 @@ class CompleteListTableViewController: UITableViewController {
             cell.textLabel.text = (candidate! as NSDictionary)["fullname"]! as? String
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         }
-
 */
         return cell
     }
