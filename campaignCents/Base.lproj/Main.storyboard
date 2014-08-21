@@ -67,7 +67,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MbI-nS-SmQ" kind="show" id="BtI-8N-DC3"/>
+                                    <segue destination="MbI-nS-SmQ" kind="show" identifier="toCandidatesList" id="r1h-yi-1xa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -137,10 +137,10 @@
             </objects>
             <point key="canvasLocation" x="815" y="423"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Complete List Table View Controller-->
         <scene sceneID="Ryq-9o-EVs">
             <objects>
-                <tableViewController id="MbI-nS-SmQ" sceneMemberID="viewController">
+                <tableViewController id="MbI-nS-SmQ" customClass="CompleteListTableViewController" customModule="campaignCents" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Cbk-ft-V1Q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,7 +154,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="x5t-y8-4gn">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="x5t-y8-4gn">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x5t-y8-4gn" id="x0S-RQ-KXf">
                                     <autoresizingMask key="autoresizingMask"/>

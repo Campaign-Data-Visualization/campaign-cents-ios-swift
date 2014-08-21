@@ -77,6 +77,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             kochMapVC.deltaSelected = deltaSelected
         } else if segue.identifier == "toProfile" {
             println("JASEN|seguing toProfile")
+        } else if segue.identifier == "toCandidatesList" {
+            println("JASEN|seguing toCandidatesList")
         }
     }
     
