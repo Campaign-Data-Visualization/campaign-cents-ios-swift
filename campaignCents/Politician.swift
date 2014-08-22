@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+// Class used in CompleteListTableViewController to structure politician information
 class Politician {
     var firstName: String
     var fullName: String

@@ -20,19 +20,20 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     // Will hold data from plist
     var kochPoliticiansDictionary: AnyObject? = nil;
 
-    
     // Defaults to Austin, TX
     var latSelected:Double = 30.274751
     var lngSelected:Double = -97.739141
     
-    
     // Defaults to city-level view
     var deltaSelected:Double = 0.11
+    
+    // Holds politician info to be segued to new VC
     var politician = NSDictionary()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Hides the navbar
         self.navigationController.navigationBarHidden = false
         
         kochMap.delegate = self
@@ -53,18 +54,20 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
 
         kochPoliticiansNationwide.text = "Koch Politicians Nationwide: 242"
 
-        
         // Loading dictionary from kochPoliticians.plist
         var documentList = NSBundle.mainBundle().pathForResource("kochPoliticians", ofType:"plist")
         kochPoliticiansDictionary = NSDictionary(contentsOfFile: documentList)
         println(" \(__FUNCTION__)Fetching 'kochPoliticians.plist 'file \n \(kochPoliticiansDictionary) \n")
         
-
+// Check if kochCoords plist exist
+        // if no, create one
+// Assign kochCoords to var
+        
+        // Loop over every Koch politician in, get coordinate (either geocoding or pull from plist), and plot on map
         for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
             var politician = MKPointAnnotation()
             
             var politicianName:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as String
-            println("JASEN|politicianName: \(politicianName)")
             var politicianLifetimeFunding:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["lifetimeFunding"]! as String
             
             var street:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["street"] as String
@@ -72,6 +75,10 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             var state:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["state"] as String
             
             var address = "\(street), \(city) \(state)"
+            
+// check if voteSmartID exists
+        // if yes, grab lat, long and plt
+// if no, do below
       
             // Converts address to latitude and longitude and then plots it on map
             var geocoder = CLGeocoder()
@@ -116,11 +123,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             var enteredLat:Double = (results[0]["geometry"]!["location"]!["lat"]) as Double
             var enteredLng:Double = (results[0]["geometry"]!["location"]!["lng"]) as Double
 
-            // START: Recenters map on search
+        // START: Recenters map on search
             var latLocation:CLLocationDegrees = enteredLat // Boston Latitude: 42.364506
             var lngLocation:CLLocationDegrees = enteredLng // Boston Longitude: -71.038887
             
-            var coordDelta:CLLocationDegrees = 0.21
+            var coordDelta:CLLocationDegrees = 0.41
             
             var selectedSpan:MKCoordinateSpan = MKCoordinateSpanMake(coordDelta, coordDelta)
             
@@ -128,7 +135,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
             var selectedRegion:MKCoordinateRegion = MKCoordinateRegionMake(selectedLocation, selectedSpan)
             
             self.kochMap.setRegion(selectedRegion, animated: true)
-            // END: Recenters map on search
+        // END: Recenters map on search
             
             println("Latitude: \(enteredLat) and Longitude: \(enteredLng)")
         })
