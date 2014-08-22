@@ -21,6 +21,7 @@
 		34D0E79519A687DF00E71C17 /* Politician.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D0E79419A687DF00E71C17 /* Politician.swift */; };
 		34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3B19A2774D001799ED /* ProfileViewController.swift */; };
 		34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */; };
+		34F7A90B19A7C47F00FD7024 /* plistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7A90A19A7C47F00FD7024 /* plistManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		34D0E79419A687DF00E71C17 /* Politician.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Politician.swift; sourceTree = "<group>"; };
 		34D9DB3B19A2774D001799ED /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeActionViewController.swift; sourceTree = "<group>"; };
+		34F7A90A19A7C47F00FD7024 /* plistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plistManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				346387C1199FBA7A00B97700 /* MapViewController.swift */,
 				34D9DB3B19A2774D001799ED /* ProfileViewController.swift */,
 				34D9DB3D19A282FC001799ED /* TakeActionViewController.swift */,
+				34F7A90A19A7C47F00FD7024 /* plistManager.swift */,
 				346387A7199E6A0F00B97700 /* Images.xcassets */,
 				3463879E199E6A0F00B97700 /* Supporting Files */,
 			);
@@ -243,6 +246,7 @@
 				346387C2199FBA7A00B97700 /* MapViewController.swift in Sources */,
 				34D9DB3C19A2774D001799ED /* ProfileViewController.swift in Sources */,
 				346387A1199E6A0F00B97700 /* AppDelegate.swift in Sources */,
+				34F7A90B19A7C47F00FD7024 /* plistManager.swift in Sources */,
 				34D0E79519A687DF00E71C17 /* Politician.swift in Sources */,
 				34D9DB3E19A282FC001799ED /* TakeActionViewController.swift in Sources */,
 				349EED9C19A5CFE800063D72 /* CompleteListTableViewController.swift in Sources */,

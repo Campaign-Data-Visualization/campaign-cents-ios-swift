@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3078849F-B766-4C2D-8882-D0BAE1558A19</string>
+	<key>IDESourceControlProjectName</key>
+	<string>campaignCents</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CAD00142650C770DD5164C6B7BC10FADD5D5F5CB</key>
+		<string>https://github.com/Campaign-Data-Visualization/campaign-cents-ios-swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>campaignCents.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CAD00142650C770DD5164C6B7BC10FADD5D5F5CB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Campaign-Data-Visualization/campaign-cents-ios-swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CAD00142650C770DD5164C6B7BC10FADD5D5F5CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CAD00142650C770DD5164C6B7BC10FADD5D5F5CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>campaignCents</string>
+		</dict>
+	</array>
+</dict>
+</plist>
