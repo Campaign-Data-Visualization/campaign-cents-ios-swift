@@ -42,12 +42,12 @@ class FileManager: NSObject {
         }
     }
     
-    func saveToCache(newData:NSMutableArray) {
+    func saveTokochPoliticians(newData:NSMutableArray) {
         newData.writeToFile(kochPoliticiansPlistPath, atomically: false)
         
     }
     
-    func readFromCache() -> NSMutableArray {
+    func readFromkochPoliticians() -> NSMutableArray {
         var resultsArray:NSMutableArray? = NSMutableArray(contentsOfFile: kochPoliticiansPlistPath)
         if let res = resultsArray? {
             return res
@@ -57,12 +57,12 @@ class FileManager: NSObject {
         }
     }
     
-    func saveToDestinationsList(newData:NSMutableArray ) {
+    func saveToCoords(newData:NSMutableArray ) {
         newData.writeToFile(self.coordsPlistPath, atomically: false)
         
     }
     
-    func readFromDestinationsList() -> NSMutableArray {
+    func readFromCoords() -> NSMutableArray {
         var resultsArray:NSMutableArray? = NSMutableArray(contentsOfFile: self.coordsPlistPath)
         if let res = resultsArray? {
             return res
@@ -70,8 +70,5 @@ class FileManager: NSObject {
             var res:NSMutableArray = []
             return res
         }
-        
     }
-    
-    
 }
