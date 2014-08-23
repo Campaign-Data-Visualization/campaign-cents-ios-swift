@@ -30,6 +30,12 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
     // Holds politician info to be segued to new VC
     var politician = NSDictionary()
     
+    // Instance of FileManager
+    let fileManager = SharedFileManager
+    
+    // Made to store lat/lngs for persistent storage
+    let userDefaults = NSUserDefaults.standardUserDefaults()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -59,27 +65,36 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
         kochPoliticiansDictionary = NSDictionary(contentsOfFile: documentList)
         println(" \(__FUNCTION__)Fetching 'kochPoliticians.plist 'file \n \(kochPoliticiansDictionary) \n")
         
-// Check if kochCoords plist exist
-        // if no, create one
-// Assign kochCoords to var
-        
         // Loop over every Koch politician in, get coordinate (either geocoding or pull from plist), and plot on map
         for var i = 0; i < (kochPoliticiansDictionary!["New item"]! as NSArray).count; i++ {
             var politician = MKPointAnnotation()
             
             var politicianName:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["name"]! as String
             var politicianLifetimeFunding:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["lifetimeFunding"]! as String
-            
+
             var street:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["street"] as String
             var city:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["city"] as String
             var state:String = (kochPoliticiansDictionary!["New item"]! as NSArray)[i]["state"] as String
             
             var address = "\(street), \(city) \(state)"
+
+            /* WIP: saving lat/lng to userDefault
+            if let userDefaults = NSUserDefaults.standardUserDefaults() {
+                if let tempCoords:AnyObject = userDefaults.objectForKey(politicianName) {
+                    println(tempCoords["lat"])
+                    
+                    // Create and place pin
+                    politician.coordinate = CLLocationCoordinate2DMake(tempCoords["lat"] as CLLocationDegrees, tempCoords["lng"] as CLLocationDegrees)
+                    
+                    politician.title = politicianName
+                    politician.subtitle = "Lifetime Funding: \(politicianLifetimeFunding)"
+                    
+                    self.kochMap.addAnnotation(politician)
+
+                }
+            }
+            */
             
-// check if voteSmartID exists
-        // if yes, grab lat, long and plt
-// if no, do below
-      
             // Converts address to latitude and longitude and then plots it on map
             var geocoder = CLGeocoder()
             geocoder.geocodeAddressString(address, completionHandler:{
@@ -95,17 +110,31 @@ class MapViewController: UIViewController, MKMapViewDelegate, UISearchBarDelegat
                     var pLat:Double = p.location.coordinate.latitude
                     var pLng:Double = p.location.coordinate.longitude
                     
+                    // Create and place pin
                     politician.coordinate = CLLocationCoordinate2DMake(pLat as CLLocationDegrees, pLng as CLLocationDegrees)
-
+                    
                     politician.title = politicianName
                     politician.subtitle = "Lifetime Funding: \(politicianLifetimeFunding)"
                     
                     self.kochMap.addAnnotation(politician)
+                    
+                    /*
+                    // Add to userDefaults
+                    let tempCoords = ["lat": pLat, "lng": pLng]
+                    
+                    self.userDefaults.setObject(tempCoords, forKey: politicianName)
+                    
+                    if let userDefaults = NSUserDefaults.standardUserDefaults() {
+                        if let tempCoords:AnyObject = userDefaults.objectForKey(politicianName) {
+                            println(tempCoords["lat"])
+                        }
+                    }
+                    */
                 }
             })
         }
     }
-    
+
     func googleAPI(location: String) {
     
         let mySession = NSURLSession.sharedSession()
