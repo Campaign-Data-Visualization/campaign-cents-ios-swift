@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        self.window = application.windows.first as? UIWindow
         
         let imageView = UIImageView(frame: self.window!.frame)
-        imageView.image = UIImage(named: "twitterscreen")
+        imageView.image = UIImage(named: "homeScreen")
         
         self.window!.addSubview(imageView)
         
@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         animateMask()
         // Override point for customization after application launch.
-        //self.window!.backgroundColor = UIColor(red: 70/255, green: 154/255, blue: 233/255, alpha: 1)
+        self.window!.backgroundColor = UIColor(red: 24/255, green: 89/255, blue: 68/255, alpha: 1)
 //        self.window!.makeKeyAndVisible()
         UIApplication.sharedApplication().statusBarHidden = true
 
@@ -81,7 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let keyFrameAnimation = CAKeyframeAnimation(keyPath: "bounds")
         keyFrameAnimation.delegate = self
         keyFrameAnimation.duration = 1 // Number of seconds the animation lasts
-        keyFrameAnimation.beginTime = CACurrentMediaTime() + 2 // Number of seconds before animation begins
+        keyFrameAnimation.beginTime = CACurrentMediaTime() + 1 // Number of seconds before animation begins
         let initalBounds = NSValue(CGRect: mask!.bounds)
         let secondBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 90, height: 90))
         let finalBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 1500, height: 1500))
