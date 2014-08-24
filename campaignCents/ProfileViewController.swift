@@ -27,13 +27,11 @@ class ProfileViewController: UIViewController {
         let url = NSURL.URLWithString(politician["photo"] as String);
         var err: NSError?
         var imageData:NSData? = NSData.dataWithContentsOfURL(url,options: NSDataReadingOptions.DataReadingMappedIfSafe, error: &err)
+        
         politicianImage.image = UIImage(data:imageData)
         
         politicianName.setTitle(politician["name"] as String, forState: .Normal)
         
-//        var pos:String = politician["position"] as String
-//        var par:String = politician["party"] as String
-
         // Hard-code data for Pat Toomey
         var pos:String = "U.S. Senator"
         var par:String = "R"
