@@ -21,6 +21,8 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController.navigationBar.tintColor = UIColor(red: 24/255, green: 89/255, blue: 68/255, alpha: 1)
+        
         // Grabs photo from url
         let url = NSURL.URLWithString(politician["photo"] as String);
         var err: NSError?

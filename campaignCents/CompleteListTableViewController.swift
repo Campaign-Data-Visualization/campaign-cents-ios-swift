@@ -30,6 +30,7 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
         
         // Hides navigationController on first VC, which is loaded on app load
         self.navigationController.navigationBarHidden = false
+        self.navigationController.navigationBar.tintColor = UIColor(red: 24/255, green: 89/255, blue: 68/255, alpha: 1)
         
         // loop through entire candidatesDictionary and create an instance of Candy and append to array
         for var i = 0; i < (candidatesDictionary!["New item"]! as NSArray).count; i++ {
