@@ -10,6 +10,8 @@ import UIKit
 import QuartzCore
 
 @UIApplicationMain
+
+// Adds to default class to include octopus startup animation
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
@@ -18,10 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         
-        
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        
-//        self.window = application.windows.first as? UIWindow
         
         let imageView = UIImageView(frame: self.window!.frame)
         imageView.image = UIImage(named: "homeScreen")
@@ -39,16 +38,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         imageView.layer.mask = mask
         self.imageView = imageView
         
-        
-        
         animateMask()
-        // Override point for customization after application launch.
+
         self.window!.backgroundColor = UIColor(red: 24/255, green: 89/255, blue: 68/255, alpha: 1)
-//        self.window!.makeKeyAndVisible()
         UIApplication.sharedApplication().statusBarHidden = true
-
-
-        
         
         return true
     }
@@ -80,17 +73,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func animateMask() {
         let keyFrameAnimation = CAKeyframeAnimation(keyPath: "bounds")
         keyFrameAnimation.delegate = self
-        keyFrameAnimation.duration = 1 // Number of seconds the animation lasts
+        keyFrameAnimation.duration = 2 // Number of seconds the animation lasts
         keyFrameAnimation.beginTime = CACurrentMediaTime() + 2 // Number of seconds before animation begins
         let initalBounds = NSValue(CGRect: mask!.bounds)
         let secondBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 90, height: 90))
-        let finalBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 1500, height: 1500))
+        let finalBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 2000, height: 2000))
         keyFrameAnimation.values = [initalBounds, secondBounds, finalBounds]
         keyFrameAnimation.keyTimes = [0, 0.3, 1]
         keyFrameAnimation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut), CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)]
         self.mask!.addAnimation(keyFrameAnimation, forKey: "bounds")
     }
     
+    // Called after animation finishes
     override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
         self.imageView!.layer.mask = nil // Removes logo mask when animation completes
         self.imageView?.removeFromSuperview()

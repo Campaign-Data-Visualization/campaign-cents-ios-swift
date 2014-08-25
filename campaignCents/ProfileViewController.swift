@@ -8,6 +8,7 @@
 
 import UIKit
 
+// VC for every politician up touch from map
 class ProfileViewController: UIViewController {
 
     var politician = NSDictionary()
@@ -32,10 +33,25 @@ class ProfileViewController: UIViewController {
         
         politicianName.setTitle(politician["name"] as String, forState: .Normal)
         
-        // Hard-code data for Pat Toomey
-        var pos:String = "U.S. Senator"
-        var par:String = "R"
+        // Default, temporary data
+        var pos:String = "POSITION"
+        var par:String = "PARTY"
         
+        // Loading dictionary from nationalCandidatesList
+        var documentList = NSBundle.mainBundle().pathForResource("nationalCandidatesList", ofType:"plist")
+        var candidatesDictionary = NSDictionary(contentsOfFile: documentList)
+        println(" \(__FUNCTION__)Fetching 'kochPoliticians.plist 'file \n \(candidatesDictionary) \n")
+        
+        // loop through candidatesDictionary and grabs position and party for chosen polition
+        for var i = 0; i < (candidatesDictionary["New item"]! as NSArray).count; i++ {
+            if (((candidatesDictionary as NSDictionary)["New item"] as? NSArray)![i] as NSDictionary!)["voteSmartID"]! as NSInteger == self.politician["voteSmartID"] as NSInteger {
+                println(self.politician["voteSmartID"] as NSInteger)
+                
+                pos = (((candidatesDictionary as NSDictionary)["New item"] as? NSArray)![i] as NSDictionary!)["position"]! as NSString
+                par = (((candidatesDictionary as NSDictionary)["New item"] as? NSArray)![i] as NSDictionary!)["partyLetter"]! as NSString
+            }
+        }
+
         var sta:String = politician["state"] as String
         
         politicianPosition.text = "\(pos) (\(sta)-\(par))"
@@ -47,16 +63,4 @@ class ProfileViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

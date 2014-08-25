@@ -9,6 +9,7 @@
 import UIKit
 import CoreLocation
 
+// Home screen VC
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
     // Creates variables to be passed onto MapVC
@@ -28,8 +29,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         manager = CLLocationManager()
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyHundredMeters
-        // NOTE: requestWhenInUseAuthorization is only available on iOS 8
-        // manager.requestWhenInUseAuthorization()
         
         manager.startUpdatingLocation()
         
