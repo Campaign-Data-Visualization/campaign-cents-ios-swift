@@ -15,7 +15,6 @@ class CompleteListTableViewController: UITableViewController, UISearchBarDelegat
     var candidatesArray = [Politician]()
     
     // Filtered list of candidates
-//    var filteredCandidates:AnyObject? = nil;
     var filteredCandidates = [Politician]()
     
     override func viewDidLoad() {
