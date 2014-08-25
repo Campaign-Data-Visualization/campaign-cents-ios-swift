@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Where the logo is added
         self.mask = CALayer()
-        self.mask!.contents = UIImage(named: "twitter logo mask").CGImage
+        self.mask!.contents = UIImage(named: "koch logo mask").CGImage
         self.mask!.bounds = CGRect(x: 0, y: 0, width: 100, height: 100)
         self.mask!.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         self.mask!.position = CGPoint(x: imageView.frame.size.width/2, y: imageView.frame.size.height/2)
@@ -81,7 +81,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let keyFrameAnimation = CAKeyframeAnimation(keyPath: "bounds")
         keyFrameAnimation.delegate = self
         keyFrameAnimation.duration = 1 // Number of seconds the animation lasts
-        keyFrameAnimation.beginTime = CACurrentMediaTime() + 1 // Number of seconds before animation begins
+        keyFrameAnimation.beginTime = CACurrentMediaTime() + 2 // Number of seconds before animation begins
         let initalBounds = NSValue(CGRect: mask!.bounds)
         let secondBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 90, height: 90))
         let finalBounds = NSValue(CGRect: CGRect(x: 0, y: 0, width: 1500, height: 1500))
